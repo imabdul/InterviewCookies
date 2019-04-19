@@ -1,4 +1,4 @@
-package Algos.Arrays.Sum.Backtracking;
+package Algos.Arrays.Matrix.Backtracking;
 
 public class WordSearch {
 }

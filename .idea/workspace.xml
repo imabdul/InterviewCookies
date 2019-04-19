@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/Sum/KSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/Sum/ThreeSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/Sum/TwoSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewCookies/META-INF/InterviewCookies.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/Trie/WordSearchII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,32 +74,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="45" selection-start-line="45" selection-end-line="46" />
-              <folding>
-                <element signature="e#0#632#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/Trie/WordSearchII.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state>
+              <caret column="45" selection-start-column="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -144,6 +136,9 @@
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Sum/KSum.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationPairII.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/Trie/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -175,7 +170,29 @@
               <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Trie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
               <item name="Sum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Sum" type="462c0819:PsiDirectoryNode" />
+              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
@@ -344,7 +361,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555460229971</updated>
-      <workItem from="1555460233457" duration="20764000" />
+      <workItem from="1555460233457" duration="21814000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures First Draft">
       <created>1555468416679</created>
@@ -360,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555550721661</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Data Structures First Draft">
+      <created>1555643830667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555643830667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20764000" />
+    <option name="totallyTimeSpent" value="21814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="0" />
@@ -495,27 +519,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/Trie/WordSearchII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="45" selection-start-line="45" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#632#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/Backtracking/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
