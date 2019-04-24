@@ -1,6 +1,5 @@
 package DataStructures.Tree.BST.Implementation;
 
-import javax.swing.text.MutableAttributeSet;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -42,6 +41,17 @@ public class BSTBasics {
         System.out.print(root.val + " ");
         inOrderTraversal(root.left);
         inOrderTraversal(root.right);
+    }
+
+    public void postOrderTraversal(){
+        postOrderTraversal(root);
+    }
+
+    private void postOrderTraversal(TreeNode root){  // First val is root in preOrderTraversal.
+        if (root==null) return;
+        inOrderTraversal(root.left);
+        inOrderTraversal(root.right);
+        System.out.print(root.val + " ");
     }
 
     public boolean search(int val){
@@ -126,10 +136,10 @@ public class BSTBasics {
         zigzagLevelOrder(root);
     }
 
-    private void zigzagLevelOrder(TreeNode root){
+    private void zigzagLevelOrder(TreeNode node){
         Stack<TreeNode> stk1 = new Stack<>();
         Stack<TreeNode> stk2 = new Stack<>();
-        stk1.push(root);
+        stk1.push(node);
         while(!stk1.isEmpty()|| !stk2.isEmpty()){
             while(!stk1.isEmpty()){
                 TreeNode curr = stk1.pop();
@@ -155,5 +165,86 @@ public class BSTBasics {
         }
 
     }
+
+    public int countDeepestLevelLeafNodes(){
+        int counter=0;
+
+        return countDeepestLevelLeafNodes(root,findHeight());
+    }
+
+    private int countDeepestLevelLeafNodes(TreeNode node, int depth){
+        if (node==null) return 0;
+        if(depth==0) return 1;
+        int result=0;
+        result +=countDeepestLevelLeafNodes(node.left, depth-1);
+        result +=countDeepestLevelLeafNodes(node.right , depth-1);
+        return result;
+    }
+
+    private int countLeaf=0;
+    public int countLeafNodes(){
+        countLeaf=0;
+        return countLeafNodes(root);
+    }
+
+    private int countLeafNodes(TreeNode node){
+        if(node==null) return 0;
+        if(node.left==null && node.right==null) countLeaf++;
+        countLeafNodes(node.left);
+        countLeafNodes(node.right);
+        return countLeaf;
+    }
+
+    public void delete(int val){
+        root = delete(root,val);
+    }
+
+    private TreeNode delete(TreeNode node, int val){
+        if(node == null ) return null;
+
+        //check whether node to be deleted is in left or right
+        else if (val < node.val) node.left = delete(node.left, val);
+        else if (val > node.val) node.right = delete(node.right,val);
+        else{
+            //if no childs of the node to be deleted
+            if(node.left==null && node.right==null) node =null;
+            //if no left child
+            else if (node.left==null) node=node.right;
+            //if no right child
+            else if (node.right==null) node= node.left;
+            else{ // case 3: two children
+                TreeNode tmp = findMaximum(node.left);  //find maximum node of the left subtree
+                node.val=tmp.val;                       //copy its data to the target node;
+                node.left=delete(node.left,tmp.val);    //delete the node
+
+            }
+
+
+        }
+        return node;
+    }
+
+
+    public boolean isValidBST(){
+        return isValidBST(root, null, null);
+    }
+
+    private boolean isValidBST(TreeNode root, TreeNode min, TreeNode max ){
+        if(root==null) return true;
+        if((min!=null && root.val<min.val) || (max!=null && root.val>max.val))return false;
+        return isValidBST(root.left,min,root) && isValidBST(root.right,root,max);
+    }
+
+    public boolean isMirror(){            //applicable to any binary tree
+        return isMirror(root,root);
+    }
+    private boolean isMirror(TreeNode node1, TreeNode node2){
+        if (node1==null && node2==null) return true;
+        if (node1==null || node2==null ) return false;
+        return (node1.val==node2.val) && isMirror(node1.left,node2.right)
+                && isMirror(node1.right,node2.left);
+    }
+
+
 
 }

@@ -11,10 +11,13 @@ public class BSTMain {
         bst.insertNode(2);
         bst.insertNode(16);
         bst.insertNode(6);
+        bst.insertNode(1);
 
         bst.inOrderTraversal();
         System.out.println();
         bst.preOrderTraversal();
+        System.out.println();
+        bst.postOrderTraversal();
         System.out.println();
         System.out.println(bst.search(13));
         System.out.println(bst.search(20));
@@ -26,6 +29,13 @@ public class BSTMain {
         System.out.println();
         bst.zigzagLevelOrder();
         System.out.println();
+        System.out.println(bst.countDeepestLevelLeafNodes());
+        System.out.println(bst.countLeafNodes());
+        bst.delete(1);
+        bst.inOrderTraversal();
+        System.out.println();
+        System.out.println(bst.isValidBST());
+        System.out.println(bst.isMirror());
 
 
 
