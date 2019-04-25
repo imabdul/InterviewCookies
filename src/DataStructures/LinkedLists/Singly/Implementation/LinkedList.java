@@ -1,5 +1,7 @@
 package DataStructures.LinkedLists.Singly.Implementation;
 
+import java.util.List;
+
 class LinkedList {
 
     private ListNode head;    //Reference to the first node (called as head in LinkedList). Through head only, LinkedList can be traversed
@@ -50,6 +52,58 @@ class LinkedList {
 
     }
 
+    public void printListIterative(){
+        printListIterative(head);
+    }
+
+    private void printListIterative(ListNode node){
+        while(node!=null){
+            System.out.print(node.val + " ");
+            node =node.next;
+        }
+        System.out.println();
+    }
+
+    public void printListRecursive(){
+        printListRecursive(head);
+    }
+
+    private void printListRecursive(ListNode node){
+        if(node == null){
+            System.out.println();
+            return;
+        }
+        System.out.print(node.val + " ");
+        printListRecursive(node.next);
+    }
+
+    public void printListReverse(){
+        printListReverse(head);
+    }
+
+    private void printListReverse(ListNode node){
+        if(node == null){
+            System.out.println();
+            return;
+        }
+        printListReverse(node.next);
+        System.out.print(node.val + " ");
+    }
+
+    public void removeLast(){
+        removeLast(head);
+    }
+
+    private void removeLast(ListNode node){
+        ListNode curr = node;
+        if(curr ==null || curr.next==null) head=null;
+
+
+        while(curr.next.next!=null){
+            curr=curr.next;
+        }
+        curr.next=null;
+    }
 
 
 

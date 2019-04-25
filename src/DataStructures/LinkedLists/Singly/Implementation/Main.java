@@ -33,13 +33,11 @@ class Main {
 
         list.insertAtLast(11);
         System.out.println("-------------");
-        test = list.getHead();
-        while(test!=null){
-            System.out.println(test.val);
-            test=test.next;
-        }
-
-
+        list.printListIterative();
+        list.printListRecursive();
+        list.printListReverse();
+        list.removeLast();
+        list.printListReverse();
         //System.out.println(test.val);
         //System.out.println(test.next.val);
 
