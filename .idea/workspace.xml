@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Sum/KSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/KSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Sum/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Sum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Sum/TwoSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/ThreeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="46" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Sum/CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -58,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/BSTBasics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="235" column="5" lean-forward="true" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
+              <caret line="235" column="5" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#725#726#0" expanded="true" />
@@ -108,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="110" column="1" lean-forward="true" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
               <folding>
                 <element signature="e#1426#1427#0" expanded="true" />
                 <element signature="e#1466#1467#0" expanded="true" />
@@ -123,13 +119,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="502">
+              <caret line="54" column="19" selection-start-line="38" selection-start-column="7" selection-end-line="54" selection-end-column="19" />
               <folding>
-                <element signature="e#0#1532#0" expanded="true" />
+                <element signature="e#0#1896#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,6 +187,12 @@
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/Main.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Matrix/DP/LIP.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Matrix/DP/DP/LIP.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/LIP.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/LIP.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/DP/LIP.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java" />
       </list>
     </option>
   </component>
@@ -220,6 +234,38 @@
               <item name="Arrays" type="462c0819:PsiDirectoryNode" />
               <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
+              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
+              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="Trie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -253,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LIS">
+  <component name="RunManager" selected="Application.LIP">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -288,13 +334,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.Sum.KSum" />
+    <configuration name="LIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.Matrix.DP.LIP" />
       <module name="InterviewCookies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algos.Arrays.Sum.*" />
+          <option name="PATTERN" value="Algos.Arrays.Matrix.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,7 +354,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algos.Arrays.DP.*" />
+          <option name="PATTERN" value="Algos.Arrays.Matrix.Backtracking.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LIP" />
         <item itemvalue="Application.LIS" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BSTMain" />
         <item itemvalue="Application.CombinationSumII" />
-        <item itemvalue="Application.KSum" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +427,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555460229971</updated>
-      <workItem from="1555460233457" duration="52774000" />
+      <workItem from="1555460233457" duration="56014000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures First Draft">
       <created>1555468416679</created>
@@ -422,7 +468,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52774000" />
+    <option name="totallyTimeSpent" value="56014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1134" height="1011" extended-state="0" />
@@ -435,7 +481,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28296703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32861805" />
+      <window_info anchor="bottom" id="Messages" weight="0.32861805" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.3296875" />
@@ -443,7 +489,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32861805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12622416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,7 +616,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -584,7 +630,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/BSTBasics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="235" column="5" lean-forward="true" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
+          <caret line="235" column="5" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#725#726#0" expanded="true" />
@@ -621,7 +667,7 @@
     <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="110" column="1" lean-forward="true" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
           <folding>
             <element signature="e#1426#1427#0" expanded="true" />
             <element signature="e#1466#1467#0" expanded="true" />
@@ -637,10 +683,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="502">
+          <caret line="54" column="19" selection-start-line="38" selection-start-column="7" selection-end-line="54" selection-end-column="19" />
           <folding>
-            <element signature="e#0#1532#0" expanded="true" />
+            <element signature="e#0#1896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
