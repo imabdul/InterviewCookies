@@ -38,6 +38,8 @@ class Main {
         list.printListReverse();
         list.removeLast();
         list.printListReverse();
+        //list.reverse();
+        //list.printListIterative();
         //System.out.println(test.val);
         //System.out.println(test.next.val);
 

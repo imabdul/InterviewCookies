@@ -62,13 +62,22 @@ public class LIP {
     }
 
     public static void main(String[] Args){
-        int[][] matrix ={
+        int[][] matrix1 ={
                 {9,9,4},
                 {6,6,8},
                 {2,1,1}
         };
         LIP lip = new LIP();
-        System.out.println(lip.longestIncreasingPath(matrix));
+        System.out.println("Longest increasing Path in matrix1 ---> " + lip.longestIncreasingPath(matrix1));
+
+
+        int[][] matrix2 = {
+                {3,4,5},
+                {3,2,6},
+                {2,2,1}
+        };
+        System.out.println("Longest increasing Path in matrix2 ---> " + lip.longestIncreasingPath(matrix2));
+
 
     }
 }
