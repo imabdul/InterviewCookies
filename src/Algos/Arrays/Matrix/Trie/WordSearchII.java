@@ -24,7 +24,7 @@ Note:
 All inputs are consist of lowercase letters a-z.
 The values of words are distinct.
  */
-package Algos.Arrays.Matrix.Backtracking.Trie;
+package Algos.Arrays.Matrix.Trie;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -92,7 +92,6 @@ public class WordSearchII {
     }
 
 }
-
 
 
 class TrieNode{

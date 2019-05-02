@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algos/String/validAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/String/validAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Trie/WordSearchII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/WordSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,20 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/WordSearch.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#522#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Trie/WordSearchII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+            <state relative-caret-position="658">
+              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
               <folding>
                 <element signature="e#0#761#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -168,6 +172,8 @@
         <option value="$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/validAnagram.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Trie/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -223,7 +229,7 @@
               <item name="Algos" type="462c0819:PsiDirectoryNode" />
               <item name="Arrays" type="462c0819:PsiDirectoryNode" />
               <item name="Matrix" type="462c0819:PsiDirectoryNode" />
-              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +238,6 @@
               <item name="Algos" type="462c0819:PsiDirectoryNode" />
               <item name="Arrays" type="462c0819:PsiDirectoryNode" />
               <item name="Matrix" type="462c0819:PsiDirectoryNode" />
-              <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
               <item name="Trie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordSearchII">
+  <component name="RunManager" selected="Application.WordSearch">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -289,20 +294,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algos.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.MaxProfit" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,13 +329,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.Matrix.Backtracking.Trie.WordSearchII" />
+    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.Matrix.WordSearch" />
       <module name="InterviewCookies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algos.Arrays.Matrix.Backtracking.Trie.*" />
+          <option name="PATTERN" value="Algos.Arrays.Matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.Matrix.Trie.WordSearchII" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.Arrays.Matrix.Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,11 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.WordSearchII" />
         <item itemvalue="Application.MaxSlidingWindow" />
         <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
         <item itemvalue="Application.MaxProfitII" />
-        <item itemvalue="Application.MaxProfit" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +409,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555460229971</updated>
       <workItem from="1555460233457" duration="69099000" />
-      <workItem from="1556559310010" duration="10472000" />
+      <workItem from="1556559310010" duration="13033000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures First Draft">
       <created>1555468416679</created>
@@ -445,13 +450,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79571000" />
+    <option name="totallyTimeSpent" value="82132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1128" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21731123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21731123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,7 +465,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18153527" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18153527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,7 +475,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32739726" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32676348" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -720,21 +725,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/WordSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Trie/WordSearchII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+        <state relative-caret-position="658">
+          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
           <folding>
             <element signature="e#0#761#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#1293#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
