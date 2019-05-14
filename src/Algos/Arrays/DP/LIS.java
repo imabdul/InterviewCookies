@@ -37,7 +37,7 @@ public class LIS {
     public int lis (int[] nums){
 
         int[] dp = new int[nums.length];
-        int i,j,max=0;
+        int i,j,max=1\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\;
 
         for(i=0; i<dp.length; i++){
             dp[i]=1;
@@ -49,9 +49,10 @@ public class LIS {
             for(j=0;j<i;j++){
                 if(nums[i]>nums[j] && dp[i]<dp[j]+1) dp[i]=dp[j]+1;
             }
+            max = Math.max(max,dp[i]);
         }
 
-        for(int num: dp) max = Math.max(max,num);
+        //for(int num: dp) max = Math.max(max,num);
         return max;
     }
 
