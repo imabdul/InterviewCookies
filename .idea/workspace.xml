@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignProblems/ImplementStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignProblems/MinStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,23 +25,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="2962" />
+          <entry key="java" value="3772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2962" />
+          <entry key="JAVA" value="3772" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -49,15 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/String/DP/LongestCommonSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DesignProblems/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="540">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="e#223#224#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
@@ -106,6 +97,15 @@
                 <element signature="e#480#481#0" expanded="true" />
                 <element signature="e#506#507#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -224,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/DesignProblems/ImplementLRU.java" />
         <option value="$PROJECT_DIR$/src/DesignProblems/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/DesignProblems/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java" />
       </list>
     </option>
   </component>
@@ -256,7 +257,14 @@
               <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="Algos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algos" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingAlgos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +277,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558485146521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558660597346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -293,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinStack">
+  <component name="RunManager" selected="Application.quicksort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -307,20 +315,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algos.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.DP.LIS" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.Arrays.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,6 +370,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.SortingAlgos.quicksort" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.SortingAlgos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -400,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LIS" />
       <item itemvalue="Application.LongestCommonSubsequence" />
       <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.LRUCache" />
       <item itemvalue="Application.MinStack" />
+      <item itemvalue="Application.quicksort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quicksort" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.LIS" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +484,7 @@
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49911505" weight="0.3296875" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49646017" visible="true" weight="0.27235773" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49646017" visible="true" weight="0.27235773" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignProblems/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="540">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
@@ -831,6 +839,13 @@
             <element signature="e#480#481#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
