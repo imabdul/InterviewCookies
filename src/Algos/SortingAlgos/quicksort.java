@@ -1,3 +1,18 @@
+/*
+  Quicksort. Picking the pivot is 'pivotal' to the
+  algorithm's performance ;)
+  This version picks the last item in the partition space
+  as the pivot everytime, there are many other ways to choose
+  a pivot item.
+  The video to explain this code is here: https://www.youtube.com/watch?v=uXBnyYuwPe8
+*/
+
+/*
+  Top-level helper to help the caller pass less arguments in. We know that
+  quicksort will start with considering the whole array
+*/
+
+
 package Algos.SortingAlgos;
 
 public class quicksort {
@@ -28,7 +43,7 @@ public class quicksort {
             }
         }
         swap(arr, i+1, right);
-        return i+1;
+        return i+1;  //pivot position, at this point we know left is smaller than pivot and right is greater than pivot, so pivot has to be sandwiched between left and the right split.
     }
 
     public void swap(int[] arr, int first, int second){

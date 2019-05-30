@@ -105,6 +105,21 @@ class LinkedList {
         curr.next=null;
     }
 
+    public void findMid(){
+        findMid(head);
+    }
 
+    private void findMid(ListNode node){
+        ListNode slow = node;
+        ListNode fast = node;
+
+        while (fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+
+        System.out.println(slow.val);
+
+    }
 
 }

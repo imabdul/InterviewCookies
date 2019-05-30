@@ -31,13 +31,14 @@ class Main {
             test=test.next;
         }
 
-        list.insertAtLast(11);
+        //list.insertAtLast(11);
         System.out.println("-------------");
         list.printListIterative();
-        list.printListRecursive();
-        list.printListReverse();
-        list.removeLast();
-        list.printListReverse();
+        list.findMid();
+        //list.printListRecursive();
+        //list.printListReverse();
+        //list.removeLast();
+        //list.printListReverse();
         //list.reverse();
         //list.printListIterative();
         //System.out.println(test.val);
