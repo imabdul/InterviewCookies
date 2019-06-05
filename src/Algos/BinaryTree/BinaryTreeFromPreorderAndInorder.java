@@ -42,12 +42,6 @@ public class BinaryTreeFromPreorderAndInorder {
         return root;
     }
 
-    private void helperTest(TreeNode root){
-        if(root == null) return;
-        helperTest(root.left);
-        System.out.print(root.val + " ");
-        helperTest(root.right);
-    }
 
     public static void main(String [] Args){
         int[] preOrder =  new int[] {3,9,20,15,7};
@@ -58,6 +52,13 @@ public class BinaryTreeFromPreorderAndInorder {
         preToIn.helperTest(node);
 
 
+    }
+
+    private void helperTest(TreeNode root){
+        if(root == null) return;
+        helperTest(root.left);
+        System.out.print(root.val + " ");
+        helperTest(root.right);
     }
 
 }
