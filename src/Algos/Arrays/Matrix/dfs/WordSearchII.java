@@ -24,7 +24,7 @@ Note:
 All inputs are consist of lowercase letters a-z.
 The values of words are distinct.
  */
-package Algos.Arrays.Matrix.Trie;
+package Algos.Arrays.Matrix.dfs;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -18,7 +18,7 @@ Given word = "ABCB", return false.
  */
 
 
-package Algos.Arrays.Matrix;
+package Algos.Arrays.Matrix.dfs;
 
 public class WordSearch {
     public static void main(String[] args){
