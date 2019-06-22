@@ -36,12 +36,9 @@ public class ReorderList {
 
         ListNode slow=head;
         ListNode fast=head;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast= fast.next.next;
-
-            //You want a node before to the mid, so that you can break it and mark it's next to null.
-            if (fast.next == null || fast.next.next == null) return slow;
+        while(fast.next!=null && fast.next.next!=null) { //usually the condition is (fast!=null && fast.next!=null) to get the mid but here we want node before to the mid in order to break it into 2 Lists
+            slow = slow.next;
+            fast = fast.next.next;
         }
         return slow;
     }
@@ -66,12 +63,27 @@ public class ReorderList {
         ReorderList rl = new ReorderList();
         rl.reorderList(L1);
 
-        ListNode curr = L1;
-        while(curr.next!=null){
-            System.out.print(curr.val + "->"); //expected 1->4->2->3
-            curr=curr.next;
+        ListNode curr1 = L1;
+        while(curr1.next!=null){
+            System.out.print(curr1.val + "->"); //expected 1->4->2->3
+            curr1=curr1.next;
         }
-        System.out.print(curr.val);
+        System.out.print(curr1.val);
+
+        System.out.println(" ");
+        ListNode L2 = new ListNode(1);
+        L2.next=new ListNode(2);
+        L2.next.next=new ListNode(3);
+        L2.next.next.next=new ListNode(4);
+        L2.next.next.next.next=new ListNode(5);
+        rl.reorderList(L2);
+
+        ListNode curr2 = L2;
+        while(curr2.next!=null){
+            System.out.print(curr2.val + "->"); //expected 1->5->2->4->3
+            curr2=curr2.next;
+        }
+        System.out.print(curr2.val);
     }
 
 }
