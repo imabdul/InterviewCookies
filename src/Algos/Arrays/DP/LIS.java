@@ -32,18 +32,13 @@ lis(1)
 
 //O(N^2) solution
 package Algos.Arrays.DP;
-
+import java.util.Arrays;
 public class LIS {
     public int lis (int[] nums){
 
         int[] dp = new int[nums.length];
         int i,j,max=1;
-
-        for(i=0; i<dp.length; i++){
-            dp[i]=1;
-        }
-
-
+        Arrays.fill(dp,1);
 
         for(i=1; i<nums.length; i++){
             for(j=0;j<i;j++){
@@ -64,7 +59,7 @@ public class LIS {
 
         int [] arr1 = new int [] {10,9,2,5,3,7,101,18}; // ans is 4
         LIS lIS = new LIS();
-        System.out.println(lIS.lis(arr1));
+        System.out.println("Length of lis is " + lIS.lis(arr1));
 
         int[] arr2 = { 10, 22, 9, 33, 21, 50, 41, 60 };
         int n = arr2.length;

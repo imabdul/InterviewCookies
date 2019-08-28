@@ -26,7 +26,7 @@ LRUCache cache = new LRUCache( 2 //capacity // );
  */
 
 
-package DesignProblems;
+package OOPDesignProblems;
 
 
 import java.util.HashMap;
@@ -41,7 +41,7 @@ public class LRUCache {
         public DNode(int key, int value){
             this.key=key;
             this.value=value;
-        };
+        }
 
     }
 

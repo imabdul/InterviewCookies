@@ -1,4 +1,4 @@
-package DesignProblems;
+package OOPDesignProblems;
 import java.util.Stack;
 
 

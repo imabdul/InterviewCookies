@@ -27,15 +27,14 @@ Could you solve it in linear time?
  */
 
 package Algos.Arrays;
+import java.util.Arrays;
 
 public class MaxSlidingWindow {
 
     public int[] maxSlidingWindow(int[] nums, int k){
         if(nums == null || nums.length<1) return nums;
         int[] result = new int [nums.length-k+1];
-        for(int i=0; i<result.length; i++){
-            result[i]=Integer.MIN_VALUE;
-        }
+        Arrays.fill(result, Integer.MIN_VALUE);
 
         for(int i=0; i<nums.length-k+1; i++){
             for(int j=i; j<i+k;j++){

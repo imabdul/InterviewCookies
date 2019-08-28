@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/MinimumInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/MinimumInRotatedSortedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/SearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/MaxAreaOfIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algos/String/StringPermutaions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsIterative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/String/BackTrack/GenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/String/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/String/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/String/PalindromePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algos/String/ValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/TicTacToe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/DP/CoinChangeIterative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/DP/CoinChangeIterative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/DP/LIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/DP/LIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/MaxSlidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/Arrays/MaxSlidingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/DesignProblems/ImplementIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/DesignProblems/LRUCache$DNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/DesignProblems/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/DesignProblems/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/DesignProblems/ShuffleAnArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignProblems/ImplementIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignProblems/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignProblems/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignProblems/ShuffleAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,32 +45,34 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="53" />
+          <entry key="java" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="15368" />
+          <entry key="java" value="22536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15368" />
+          <entry key="JAVA" value="22536" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -63,55 +81,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/TrappingRainWater.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeRecursive.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsIterative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeIterative.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/String/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="414">
+              <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/SearchInRotatedArray.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/String/PalindromePairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+            <state relative-caret-position="551">
+              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/AddTwoNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/String/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="48" column="37" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="116">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/SparseMatrixMultiplication.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/String/ValidParenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#153#164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,40 +149,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/AsteroidCollision.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
+            <state relative-caret-position="285">
+              <caret line="21" column="26" selection-start-line="9" selection-start-column="8" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignProblems/LRUCache.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1084">
-              <caret line="48" selection-start-line="48" selection-end-line="50" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#3378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/ContainerWithMostWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="42" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/OnlineElection.java">
+        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="630">
+              <caret line="68" column="10" selection-start-line="64" selection-start-column="9" selection-end-line="68" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#2172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,9 +189,11 @@
     <findStrings>
       <find>remove</find>
       <find>put</find>
+      <find>HashMap</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/Algos/LinkedList</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -182,27 +202,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Algos/LinkedList/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/MaxProfit.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/MaxProfitII.java" />
-        <option value="$PROJECT_DIR$/src/Algos/LinkedList/IntersectionOfTwoLinkedLists.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java" />
-        <option value="$PROJECT_DIR$/src/Algos/String/validAnagram.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Backtracking/Trie/WordSearchII.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/Trie/WordSearchII.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/WordSearch.java" />
-        <option value="$PROJECT_DIR$/src/Algos/LinkedList/OddEvenLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/MaximumSubArray.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" />
-        <option value="$PROJECT_DIR$/src/Algos/String/DP/LCS.java" />
-        <option value="$PROJECT_DIR$/src/Algos/LinkedList/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/DesignProblems/ImplementLRU.java" />
-        <option value="$PROJECT_DIR$/src/DesignProblems/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/DesignProblems/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java" />
         <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/KthLargestElement.java" />
-        <option value="$PROJECT_DIR$/src/Algos/String/DP/DecodeWays.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/Main.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/TreeNode.java" />
@@ -221,11 +223,9 @@
         <option value="$PROJECT_DIR$/src/Algos/String/IntegertoRoman.java" />
         <option value="$PROJECT_DIR$/src/Algos/LinkedList/ReorderList.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/RomantoInteger.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/AsteroidCollision.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/DesignProblems/ShuffleAnArray.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeIterative.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/MinimumInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeRecursive.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/MinimumInRotatedSortedArrayII.java" />
@@ -233,6 +233,26 @@
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/MaxAreaOfIsland.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/StringPermutaions.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/DesignProblems/ImplementIterator.java" />
+        <option value="$PROJECT_DIR$/src/DesignProblems/Array.java" />
+        <option value="$PROJECT_DIR$/src/DesignProblems/List.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/DP/DecodeWays.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeIterative.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java" />
+        <option value="$PROJECT_DIR$/src/Algos/Arrays/AsteroidCollision.java" />
+        <option value="$PROJECT_DIR$/src/DesignProblems/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/DesignProblems/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/BackTrack/GenerateParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsIterative.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/GroupAnagram.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/PalindromePairs.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/ValidParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java" />
       </list>
     </option>
   </component>
@@ -272,34 +292,6 @@
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="SortingAlgos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
               <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,14 +311,14 @@
               <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="List.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -337,9 +329,10 @@
   <component name="PropertiesComponent">
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="sout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564010150391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566953094061" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -363,76 +356,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
+  <component name="RunManager" selected="Application.RemoveInvalidParentheses">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.ContainerWithMostWater" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxAreaOfIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.Matrix.dfs.MaxAreaOfIsland" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.Arrays.Matrix.dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumInRotatedSortedArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.BinarySearchProblems.MinimumInRotatedSortedArrayII" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.Arrays.BinarySearchProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.Arrays.BinarySearchProblems.SearchInRotatedArray" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.Arrays.BinarySearchProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringPermutaions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.StringPermutaions" />
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.String.GenerateParentheses" />
       <module name="InterviewCookies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algos.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.String.GroupAnagrams" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.String.PalindromePairs" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.String.RemoveInvalidParentheses" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapPairsIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algos.LinkedList.SwapPairsIterative" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algos.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,19 +463,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumInRotatedSortedArrayII" />
-      <item itemvalue="Application.SearchInRotatedArray" />
-      <item itemvalue="Application.StringPermutaions" />
-      <item itemvalue="Application.MaxAreaOfIsland" />
-      <item itemvalue="Application.ContainerWithMostWater" />
+      <item itemvalue="Application.SwapPairsIterative" />
+      <item itemvalue="Application.GroupAnagrams" />
+      <item itemvalue="Application.PalindromePairs" />
+      <item itemvalue="Application.GenerateParentheses" />
+      <item itemvalue="Application.RemoveInvalidParentheses" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.MaxAreaOfIsland" />
-        <item itemvalue="Application.StringPermutaions" />
-        <item itemvalue="Application.SearchInRotatedArray" />
-        <item itemvalue="Application.MinimumInRotatedSortedArrayII" />
+        <item itemvalue="Application.RemoveInvalidParentheses" />
+        <item itemvalue="Application.GenerateParentheses" />
+        <item itemvalue="Application.PalindromePairs" />
+        <item itemvalue="Application.GroupAnagrams" />
+        <item itemvalue="Application.SwapPairsIterative" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +539,7 @@
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -555,8 +548,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4892704" weight="0.27198917" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48354793" visible="true" weight="0.27198917" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -564,8 +557,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5107296" side_tool="true" visible="true" weight="0.27198917" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49499285" weight="0.32611638" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5164521" side_tool="true" visible="true" weight="0.27198917" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4899857" weight="0.32611638" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -633,12 +626,20 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/DesignProblems/LRUCache.java</url>
+          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/LRUCache.java</url>
           <line>134</line>
-          <properties class="DesignProblems.LRUCache" method="main">
+          <properties class="OOPDesignProblems.LRUCache" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/List.java</url>
+          <line>82</line>
+          <properties class="OOPDesignProblems.Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java</url>
@@ -652,108 +653,27 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java</url>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/List.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/TicTacToe.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/BSTBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="235" column="5" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/ValidPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/ValidPalindromeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/validAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="42" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxProfitII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/OddEvenLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/MaximumSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/IntersectionOfTwoLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="57" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/KthLargestElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" column="2" selection-start-line="1" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
@@ -782,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/BinaryTree/SerializeAndDeserialize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-211">
@@ -810,20 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/BinaryTree/BinaryTreeFromPreorderAndInorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/MergeIntervals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-607">
@@ -831,48 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="68" column="10" selection-start-line="64" selection-start-column="9" selection-end-line="68" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#2172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/DP/DecodeWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/DP/LongestCommonSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/ReArrangeElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/AtoI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="5" selection-start-line="52" selection-start-column="3" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -887,34 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignProblems/ImplementIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignProblems/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/TopKFrequentElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignProblems/ShuffleAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -936,23 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#1081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/NumberOfIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/MaxAreaOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -977,65 +793,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/OnlineElection.java">
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="300">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#1928#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="33" selection-start-line="22" selection-start-column="1" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="92" column="28" selection-start-line="91" selection-start-column="8" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/AtoI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="75" column="5" selection-start-line="52" selection-start-column="3" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/DP/LongestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/MaximumSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/SparseMatrixMultiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="class#ListNode#0" />
+            <element signature="class#Main#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="48">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/DP/CoinChangeIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="131">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/SparseMatrixMultiplication.java">
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/NumberOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/MaxAreaOfIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxSlidingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/IntersectionOfTwoLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="66" column="57" selection-start-line="64" selection-start-column="8" selection-end-line="66" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/DP/DecodeWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/OddEvenLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="107" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/OnlineElection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/BinaryTree/BinaryTreeFromPreorderAndInorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="5" selection-start-line="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/BackTrack/GenerateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/AsteroidCollision.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="51" column="71" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
+        <state relative-caret-position="285">
+          <caret line="21" column="26" selection-start-line="9" selection-start-column="8" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignProblems/LRUCache.java">
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1084">
-          <caret line="48" selection-start-line="48" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="42" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="68" column="10" selection-start-line="64" selection-start-column="9" selection-end-line="68" selection-end-column="10" />
           <folding>
-            <element signature="e#0#3378#0" expanded="true" />
+            <element signature="e#0#2172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/ContainerWithMostWater.java">
+    <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/ValidParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#153#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/PalindromePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
         </state>
       </provider>
     </entry>
