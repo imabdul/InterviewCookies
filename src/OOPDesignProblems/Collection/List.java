@@ -1,5 +1,4 @@
-package OOPDesignProblems;
-
+package OOPDesignProblems.Collection;
 
 import java.util.Iterator;
 

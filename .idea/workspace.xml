@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algos/String/ReorderLogFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/String/ReorderLogFiles$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/String/ReorderLogFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,23 +39,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="101" />
+          <entry key="java" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="101" />
+          <entry key="JAVA" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="22861" />
+          <entry key="java" value="23021" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22861" />
+          <entry key="JAVA" value="23021" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -57,15 +63,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/LinkedList/SwapPairsIterative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/String/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +108,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/MaxAreaOfIsland.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="89" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="93" selection-start-line="93" selection-end-line="101" selection-end-column="1" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -127,27 +157,6 @@
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="e#153#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/MaxProfit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="42" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/DP/LIP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="68" column="10" selection-start-line="64" selection-start-column="9" selection-end-line="68" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#2172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,11 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/quicksort.java" />
-        <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/KthLargestElement.java" />
-        <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/Main.java" />
-        <option value="$PROJECT_DIR$/src/DataStructures/Tree/BST/Implementation/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Algos/BinaryTree/BinaryTreeFromPreorderAndInorder.java" />
         <option value="$PROJECT_DIR$/src/Algos/BinaryTree/SerializeAndDeserialize.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/WordSearchII.java" />
@@ -230,6 +234,11 @@
         <option value="$PROJECT_DIR$/src/Algos/String/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/RemoveInvalidParentheses.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/ReorderLogFiles.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/DesignHashMap.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/List.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java" />
       </list>
     </option>
   </component>
@@ -276,32 +285,6 @@
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
-              <item name="dfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Algos" type="462c0819:PsiDirectoryNode" />
               <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,7 +311,14 @@
               <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="List.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,7 +332,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567026364833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567130282149" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -366,20 +356,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReorderLogFiles">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.GenerateParentheses" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.Collection.Main" />
       <module name="InterviewCookies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algos.String.*" />
+          <option name="PATTERN" value="OOPDesignProblems.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,13 +377,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.GroupAnagrams" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.Map.Main" />
       <module name="InterviewCookies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algos.String.*" />
+          <option name="PATTERN" value="OOPDesignProblems.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,13 +391,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.PalindromePairs" />
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.Map.MyHashMap" />
       <module name="InterviewCookies" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algos.String.*" />
+          <option name="PATTERN" value="OOPDesignProblems.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,19 +463,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GroupAnagrams" />
-      <item itemvalue="Application.PalindromePairs" />
-      <item itemvalue="Application.GenerateParentheses" />
       <item itemvalue="Application.RemoveInvalidParentheses" />
       <item itemvalue="Application.ReorderLogFiles" />
+      <item itemvalue="Application.MyHashMap" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MyHashMap" />
         <item itemvalue="Application.ReorderLogFiles" />
         <item itemvalue="Application.RemoveInvalidParentheses" />
-        <item itemvalue="Application.GenerateParentheses" />
-        <item itemvalue="Application.PalindromePairs" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -547,8 +537,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,7 +548,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4828326" visible="true" weight="0.27198917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4828326" weight="0.27198917" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,8 +557,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5171674" side_tool="true" visible="true" weight="0.27198917" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4899857" weight="0.32611638" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51287556" side_tool="true" visible="true" weight="0.32611638" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.48712447" visible="true" weight="0.32611638" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,8 +634,8 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/List.java</url>
-          <line>82</line>
+          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java</url>
+          <line>81</line>
           <properties class="OOPDesignProblems.Main" method="main">
             <option name="EMULATED" value="true" />
           </properties>
@@ -668,8 +659,8 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/List.java</url>
-          <line>81</line>
+          <url>file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java</url>
+          <line>80</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -683,20 +674,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/BinaryTree/SerializeAndDeserialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/WordSearchII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -861,17 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding>
-            <element signature="class#ListNode#0" />
-            <element signature="class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,6 +1025,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="89" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/Singly/Implementation/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" selection-start-line="93" selection-end-line="101" selection-end-column="1" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
         </state>
       </provider>
     </entry>
