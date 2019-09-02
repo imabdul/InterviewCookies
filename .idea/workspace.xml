@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/AutocompleteSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/LogSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/String/ReorderLogFiles$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/Algos/String/ReorderLogFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,23 +34,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="104" />
+          <entry key="java" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="23021" />
+          <entry key="java" value="24482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23021" />
+          <entry key="JAVA" value="24482" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -63,24 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/String/GroupAnagrams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/String/PalindromePairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algos/String/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
+            <state relative-caret-position="156">
               <caret line="93" selection-start-line="93" selection-end-line="101" selection-end-column="1" />
               <folding>
                 <element signature="e#161#162#0" expanded="true" />
@@ -128,6 +105,33 @@
                 <element signature="e#1430#1431#0" expanded="true" />
                 <element signature="e#1464#1465#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/LogSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/AutocompleteSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1124">
+              <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="27" column="37" selection-start-line="22" selection-start-column="5" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -141,23 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
               <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/String/ValidParenthesis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="e#153#164#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,9 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Algos/BinaryTree/BinaryTreeFromPreorderAndInorder.java" />
-        <option value="$PROJECT_DIR$/src/Algos/BinaryTree/SerializeAndDeserialize.java" />
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/WordSearchII.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/NumberOfIslands.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/MergeIntervals.java" />
@@ -239,6 +228,9 @@
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/AutocompleteSystem.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/LogSystem.java" />
       </list>
     </option>
   </component>
@@ -306,20 +298,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="Collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -332,7 +310,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567130282149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567383803048" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -356,9 +334,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.LogSystem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutocompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.AutocompleteSystem" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPDesignProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.LogSystem" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPDesignProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -405,34 +411,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.RemoveInvalidParentheses" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReorderLogFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.ReorderLogFiles" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -463,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveInvalidParentheses" />
-      <item itemvalue="Application.ReorderLogFiles" />
       <item itemvalue="Application.MyHashMap" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.AutocompleteSystem" />
+      <item itemvalue="Application.LogSystem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogSystem" />
+        <item itemvalue="Application.AutocompleteSystem" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MyHashMap" />
-        <item itemvalue="Application.ReorderLogFiles" />
-        <item itemvalue="Application.RemoveInvalidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -539,7 +517,7 @@
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -548,7 +526,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4828326" weight="0.27198917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.481402" visible="true" weight="0.27198917" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,8 +535,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51287556" side_tool="true" visible="true" weight="0.32611638" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.48712447" visible="true" weight="0.32611638" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.518598" side_tool="true" visible="true" weight="0.27198917" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48640916" weight="0.32611638" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -674,20 +652,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/WordSearchII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/Matrix/dfs/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/SortingAlgos/MergeIntervals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-607">
@@ -789,13 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="33" selection-start-line="22" selection-start-column="1" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1035,9 +992,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
+        <state relative-caret-position="156">
           <caret line="93" selection-start-line="93" selection-end-line="101" selection-end-column="1" />
           <folding>
             <element signature="e#161#162#0" expanded="true" />
@@ -1048,10 +1012,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java">
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/ShuffleAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        <state relative-caret-position="-16">
+          <caret line="27" column="37" selection-start-line="22" selection-start-column="5" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/AutocompleteSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/LogSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
         </state>
       </provider>
     </entry>

@@ -20,12 +20,12 @@ solution.shuffle();
  */
 
 // apply fisher-yates Algorithm
-public class ShuffleAnArray {
-    private int[] nums;
-    private Random random;
-    public ShuffleAnArray(int[] nums) {
-        this.nums=nums;
-        this.random=new Random();
+    public class ShuffleAnArray {
+        private int[] nums;
+        private Random random;
+        public ShuffleAnArray(int[] nums) {
+            this.nums=nums;
+            this.random=new Random();
     }
 
     /** Resets the array to its original configuration and return it. */
