@@ -74,10 +74,6 @@ class LogStorageSystem {
         System.out.println(Arrays.asList(ls.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Year"))); //expected [3,2,1]
         System.out.println(Arrays.asList(ls.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Hour"))); //expected [2,1]
 
-       /* String test = "/a/b/c";
-        String[] test1 = test.split("/");
-        System.out.println(Arrays.asList(test1));*/
-
     }
 
 }

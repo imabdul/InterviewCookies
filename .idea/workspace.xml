@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/AutocompleteSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/AutocompleteSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/LogSystem$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewCookies/OOPDesignProblems/LogSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/LogSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,23 +33,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="112" />
+          <entry key="java" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="112" />
+          <entry key="JAVA" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="24900" />
+          <entry key="java" value="25225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24900" />
+          <entry key="JAVA" value="25225" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -80,23 +76,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+            <state relative-caret-position="-762">
+              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+              <folding>
+                <element signature="e#1855#1856#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="106" column="46" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
-              <folding>
-                <element signature="e#1855#1856#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -153,10 +149,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Collection/List.java">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+            <state relative-caret-position="1110">
+              <caret line="74" column="124" selection-start-line="74" selection-start-column="124" selection-end-line="74" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -187,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/Matrix/SparseMatrixMultiplication.java" />
         <option value="$PROJECT_DIR$/src/Algos/Arrays/OnlineElection.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/DP/LongestCommonSubsequence.java" />
         <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/ReArrangeElements.java" />
@@ -236,8 +231,9 @@
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/AutocompleteSystem.java" />
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/LogSystem.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/LogSystem.java" />
-        <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" />
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java" />
       </list>
     </option>
   </component>
@@ -324,7 +320,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567553702391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567565136222" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -348,23 +344,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileSystem">
+  <component name="RunManager" selected="Application.HitCounter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutocompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.AutocompleteSystem" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.String.LogSystem" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,6 +358,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOPDesignProblems.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HitCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.HitCounter" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPDesignProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AutocompleteSystem" />
       <item itemvalue="Application.LogSystem" />
       <item itemvalue="Application.ReorderLogFiles" />
       <item itemvalue="Application.LogStorageSystem" />
       <item itemvalue="Application.FileSystem" />
+      <item itemvalue="Application.HitCounter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileSystem" />
+        <item itemvalue="Application.HitCounter" />
         <item itemvalue="Application.LogStorageSystem" />
+        <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.ReorderLogFiles" />
         <item itemvalue="Application.LogSystem" />
-        <item itemvalue="Application.AutocompleteSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +527,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16094421" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,7 +536,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4806867" visible="true" weight="0.27108434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47997138" visible="true" weight="0.27108434" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,8 +545,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5193133" side_tool="true" visible="true" weight="0.27108434" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48569384" weight="0.29036143" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5200286" side_tool="true" visible="true" weight="0.27108434" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48497853" weight="0.28915662" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -666,13 +662,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/IntegertoRoman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/String/RomantoInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -978,19 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="93" selection-start-line="93" selection-end-line="101" selection-end-column="1" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/String/ReorderLogFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1035,19 +1011,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+        <state relative-caret-position="1110">
+          <caret line="74" column="124" selection-start-line="74" selection-start-column="124" selection-end-line="74" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="106" column="46" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+        <state relative-caret-position="-762">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
           <folding>
             <element signature="e#1855#1856#0" expanded="true" />
             <element signature="e#1895#1896#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="93" selection-start-line="93" selection-end-line="101" selection-end-column="1" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
         </state>
       </provider>
     </entry>
