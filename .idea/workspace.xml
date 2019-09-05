@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58800cf-f188-4c4b-a533-ac05ff6502d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPDesignProblems/EncodeAndDecodeTinyURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,23 +33,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="114" />
+          <entry key="java" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="114" />
+          <entry key="JAVA" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="25225" />
+          <entry key="java" value="25364" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25225" />
+          <entry key="JAVA" value="25364" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -57,15 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algos/String/ReorderLogFiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="54" column="13" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="54" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-762">
+            <state relative-caret-position="-200">
               <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
               <folding>
                 <element signature="e#1855#1856#0" expanded="true" />
@@ -88,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="118">
+              <caret line="47" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -151,8 +142,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
+            <state relative-caret-position="897">
               <caret line="74" column="124" selection-start-line="74" selection-start-column="124" selection-end-line="74" selection-end-column="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/EncodeAndDecodeTinyURL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="56" column="122" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="122" />
+              <folding>
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Algos/Arrays/OnlineElection.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/DP/LongestCommonSubsequence.java" />
         <option value="$PROJECT_DIR$/src/Algos/SortingAlgos/ReArrangeElements.java" />
         <option value="$PROJECT_DIR$/src/Algos/String/LongestSubstring.java" />
@@ -234,6 +237,7 @@
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java" />
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java" />
         <option value="$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java" />
+        <option value="$PROJECT_DIR$/src/OOPDesignProblems/EncodeAndDecodeTinyURL.java" />
       </list>
     </option>
   </component>
@@ -308,6 +312,14 @@
               <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
               <item name="Map" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="InterviewCookies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCookies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OOPDesignProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
+              <item name="MyHashMap.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -320,7 +332,7 @@
     <property name="SearchEverywhereHistoryKey" value="sout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567565136222" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567642510734" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -344,9 +356,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HitCounter">
+  <component name="RunManager" selected="Application.EncodeAndDecodeTinyURL">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncodeAndDecodeTinyURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPDesignProblems.EncodeAndDecodeTinyURL" />
+      <module name="InterviewCookies" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPDesignProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -386,20 +412,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOPDesignProblems.Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algos.String.LogSystem" />
-      <module name="InterviewCookies" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algos.String.LogSystem" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,19 +463,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LogSystem" />
       <item itemvalue="Application.ReorderLogFiles" />
       <item itemvalue="Application.LogStorageSystem" />
       <item itemvalue="Application.FileSystem" />
       <item itemvalue="Application.HitCounter" />
+      <item itemvalue="Application.EncodeAndDecodeTinyURL" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EncodeAndDecodeTinyURL" />
         <item itemvalue="Application.HitCounter" />
         <item itemvalue="Application.LogStorageSystem" />
         <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.ReorderLogFiles" />
-        <item itemvalue="Application.LogSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +539,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16094421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,7 +548,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49785408" weight="0.32882273" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47997138" visible="true" weight="0.27108434" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47997138" visible="true" weight="0.27108434" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -662,13 +674,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algos/String/RomantoInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algos/Arrays/BinarySearchProblems/MinimumInRotatedSortedArrayII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -1009,24 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="124" selection-start-line="74" selection-start-column="124" selection-end-line="74" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-762">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding>
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1042,8 +1029,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/HitCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="118">
+          <caret line="47" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/Map/LogStorageSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="74" column="124" selection-start-line="74" selection-start-column="124" selection-end-line="74" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPDesignProblems/EncodeAndDecodeTinyURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="56" column="122" lean-forward="true" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="122" />
+          <folding>
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

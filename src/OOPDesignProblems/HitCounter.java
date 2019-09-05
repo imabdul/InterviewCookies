@@ -35,7 +35,9 @@ package OOPDesignProblems;
  * counter.getHits(301);
  * Follow up:
  * What if the number of hits per second could be very large? Does your design scale?
+ *
  * ----------------------------------------------------------------------------------
+ *
  * Super easy design O(1) hit()  O(s) getHits() no fancy data structure is needed!
  *
  * O(s) s is total seconds in given time interval, in this case 300.
