@@ -51,7 +51,7 @@ public class EncodeAndDecodeTinyURL {
  * In this case, again, we make use of the set of numbers and alphabets to generate the coding for the given URLs, similar to Approach 2.
  * But in this case, the length of the code is fixed to 6 only. Further, random characters from the string to form the characters of the code.
  * In case, the code generated collides with some previously generated code, we form a new random code.
- * 
+ *
  * Performance Analysis
  * -----------------------
  *

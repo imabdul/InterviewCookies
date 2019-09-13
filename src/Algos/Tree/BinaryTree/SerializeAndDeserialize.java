@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=suj1ro8TIVY
 https://github.com/bephrem1/backtobackswe/blob/master/Trees%2C%20Binary%20Trees%2C%20%26%20Binary%20Search%20Trees/serializeDeserializeBinaryTree.java
  */
 
-package Algos.BinaryTree;
+package Algos.Tree.BinaryTree;
 
 import DataStructures.Tree.BST.Implementation.TreeNode;
 import java.util.Queue;

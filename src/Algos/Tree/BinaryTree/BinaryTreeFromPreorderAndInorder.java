@@ -16,7 +16,7 @@ Return the following binary tree:
    15   7
 */
 
-package Algos.BinaryTree;
+package Algos.Tree.BinaryTree;
 
 import java.util.HashMap;
 import DataStructures.Tree.BST.Implementation.TreeNode;
