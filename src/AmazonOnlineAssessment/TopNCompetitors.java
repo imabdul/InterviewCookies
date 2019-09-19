@@ -44,7 +44,7 @@ class TopNCompetitors
                     reviewsCount++;
                 }
                 if (count == numReviews) {
-                    System.out.println(reviewsCount +" : " + s);
+                    //System.out.println(reviewsCount +" : " + s);
                     competitorsWithCount.put(s,reviewsCount);
                 }
                 count++;
@@ -97,8 +97,9 @@ class TopNCompetitors
         int topNCompetitors1=2;
 
         ArrayList<String> ls1 = tnc.topNCompetitors(numCompetitors1,topNCompetitors1,comp1,numReviews1,revs1);
-        System.out.println(Arrays.asList(ls1));
+        System.out.println(Arrays.asList(ls1)); //expected [rock, spiderman]
 
+        System.out.println("---------------------------");
 
         ArrayList<String> comp2 = new ArrayList<>();
         comp2.add("maroon5");
@@ -116,8 +117,9 @@ class TopNCompetitors
         int topNCompetitors2 = 4;
 
         ArrayList<String> ls2 = tnc.topNCompetitors(numCompetitors2,topNCompetitors2,comp2,numReviews2,revs2);
-        System.out.println(Arrays.asList(ls2));
+        System.out.println(Arrays.asList(ls2)); //expected [maroon5, shawn, chainsmokers]
 
+        System.out.println("---------------------------");
         ArrayList<String> comp3 = new ArrayList<>();
         comp3.add("Curry");
         comp3.add("durrant");
@@ -134,7 +136,7 @@ class TopNCompetitors
         int topNCompetitors3 = 3;
 
         ArrayList<String> ls3 = tnc.topNCompetitors(numCompetitors3,topNCompetitors3,comp3,numReviews3,revs3);
-        System.out.println(Arrays.asList(ls3));
+        System.out.println(Arrays.asList(ls3)); //expected [Curry, durrant, james]
 
     }
 }
