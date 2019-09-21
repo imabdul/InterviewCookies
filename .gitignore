@@ -1,10 +1,4 @@
 # IntelliJ
-/out/
+out/
 
-.idea_modules/
-
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Sonarlint plugin
-.idea/sonarlint
+.idea/
