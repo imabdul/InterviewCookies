@@ -1,10 +1,10 @@
-package AmazonOnlineAssessment;
+package AmznAssmnt;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.*;
-public class RemoveObstacle {
+public class RmvObstacls {
     public static void main(String[] args){
 
         List<List<Integer>> res = new ArrayList<>();
@@ -12,7 +12,7 @@ public class RemoveObstacle {
         res.add(Arrays.asList(1,0,1));
         res.add(Arrays.asList(1,1,9));
 
-        System.out.println(new RemoveObstacle().removeObstacle(3, 3, res)); //expected is 4
+        System.out.println(new RmvObstacls().removeObstacle(3, 3, res)); //expected is 4
     }
 
     boolean[][] visited = null;

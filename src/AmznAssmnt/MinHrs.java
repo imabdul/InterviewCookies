@@ -1,4 +1,4 @@
-package AmazonOnlineAssessment;
+package AmznAssmnt;
 
 
 /**
@@ -17,7 +17,7 @@ package AmazonOnlineAssessment;
 
 import java.util.*;
 
-public class MinimumHours {
+public class MinHrs {
     int[][] cache;
     int minHours(int numRows, int numCols, List<List<Integer>> grid){
         if(grid == null || grid.size() == 0) return 0;
@@ -105,7 +105,7 @@ public class MinimumHours {
         int numRows=3;
         int numCols=6;
 
-        MinimumHours mH = new MinimumHours();
+        MinHrs mH = new MinHrs();
         System.out.println(mH.minHours(numRows,numCols,grid));
 
     }

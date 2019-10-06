@@ -1,4 +1,4 @@
-package AmazonOnlineAssessment;
+package AmznAssmnt;
 /**
  * array = {3, 5, 2, 7}
  * minCost = (2 + 3) + ((2 + 3) + 5) + (((2 + 3) + 5) + 7)
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
 
-public class AmazonFulfillmentBuilder {
+public class AmznFlfllmntBldr {
     public int minimumTime(int numOfParts, List<Integer> parts) {
         if (numOfParts == 0) {
             return 0;
@@ -28,7 +28,7 @@ public class AmazonFulfillmentBuilder {
     public static void main(String[] args) {
         // numOfParts = 4, parts=[8,4,6,12]
         // output = 58
-        AmazonFulfillmentBuilder test = new AmazonFulfillmentBuilder();
+        AmznFlfllmntBldr test = new AmznFlfllmntBldr();
         List<Integer> parts = Arrays.asList(8, 4, 6, 12);
         int result = test.minimumTime(4, parts); //expected is 58
         List<Integer> parts2 = Arrays.asList(8);

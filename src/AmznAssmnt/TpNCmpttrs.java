@@ -1,5 +1,5 @@
 
-package AmazonOnlineAssessment;
+package AmznAssmnt;
 // IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
 // SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED
 // DEFINE ANY CLASS AND METHOD NEEDED
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.*;
 // CLASS BEGINS, THIS CLASS IS REQUIRED
-class TopNCompetitors
+class TpNCmpttrs
 {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
     public ArrayList<String> topNCompetitors(int numCompetitors,
@@ -79,7 +79,7 @@ class TopNCompetitors
     // METHOD SIGNATURE ENDS
 
     public static void main(String[] args){
-        TopNCompetitors tnc = new TopNCompetitors();
+        TpNCmpttrs tnc = new TpNCmpttrs();
         ArrayList<String> comp1 = new ArrayList<>();
         comp1.add("rock");
         comp1.add("stonecold");
