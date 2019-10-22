@@ -81,7 +81,6 @@ public class TextJustification {
     }
     public static void main(String [] args){
         TextJustification t = new TextJustification();
-        String words = "Codility we test coders";
         String [] words1 = {"What","must","be","acknowledgment","shall","be"};
         List<String> result1 = t.fullJustify(words1,16);
         System.out.println(Arrays.asList(result1)); //expected [[What   must   be, acknowledgment  , shall be        ]]
