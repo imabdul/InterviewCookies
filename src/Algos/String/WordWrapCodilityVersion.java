@@ -2,6 +2,9 @@ package Algos.String;
 
 /**
  * Created by Abdul Malik
+ *
+ * Applied Similar approach as Text Justification Hard Leetcode problem in this one
+ *
  * Given a string s and an integer k. Break the string in such a way that:
  *     The resulting string should not contain parts of a word.
  *     The resulting string should not contain spaces.
@@ -20,7 +23,7 @@ package Algos.String;
  * Explaination: Since the size of 'k' is greater than the length of given string so we return the string as it is.
  */
 
-public class TextJustificationCodilityVersion {
+public class WordWrapCodilityVersion {
     public static String getWordWrap(String s, int k) {
         String[] words = s.split(" ");
         int index=0;
