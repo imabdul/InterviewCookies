@@ -18,7 +18,7 @@ import java.util.*;
  *      3. Given A = ["potato","kayak","banana","racecar"], method should return 0. It is impossible to choose any of these strings as each of them contains repeating letters.
  *      4. Given A = ["eva","jwq","tyn","jan"], method should return 9. One of the possible strings of this length is "evajwqtyn"
  *
- * Assume tha:
+ * Assume that:
  *      1. N is an integer within range [1..8];
  *      2. each string in A consists of lowercase English letters;
  *      3. the sum of lengths of strings in A doesn't exceed 100;
