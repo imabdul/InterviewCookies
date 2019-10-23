@@ -44,7 +44,8 @@ public class MaxSizeOfConcatStringsWithUniqueCharacters {
             }
 
 
-            for (int j=i+1; j<A.length;j++){
+            for (int j=0; j<A.length;j++){
+                if(j==i)continue;
                 char[] arr2 = A[j].toCharArray();
                 for(int k=0; k<arr2.length;k++){
                     if(set.contains(arr2[k])){
