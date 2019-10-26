@@ -78,10 +78,10 @@ public class MaxSizeOfConcatStringsWithUniqueCharacters {
                     set.add(arr2[k]);
                 }
                 //for(char c: set) System.out.println(c);
-                //System.out.println("arr2len -->" + arr2.length);
-                //System.out.println("len -->" + len);
-                //System.out.println("setSize -->" + set.size());
-                if (len + arr2.length != set.size()) continue;
+               /* System.out.println("arr2len -->" + arr2.length);
+                System.out.println("len -->" + len);
+                System.out.println("setSize -->" + set.size());*/
+                if (len + arr2.length != set.size()) break;
                 else {
                     //System.out.println("hello");
                     len += arr2.length;
@@ -95,7 +95,7 @@ public class MaxSizeOfConcatStringsWithUniqueCharacters {
 
     public static void main (String[] args){
         MaxSizeOfConcatStringsWithUniqueCharacters concatStrings = new MaxSizeOfConcatStringsWithUniqueCharacters();
-        String[] str1 = new String[]{"co","dil","itya"};
+        String[] str1 = new String[]{"co","dil","ity"};
         System.out.println(concatStrings.maxSize(str1));//expected 5
         String[] str2 = new String[]{"abc","kkk","def","csv"};
         System.out.println(concatStrings.maxSize(str2));//expected 6
