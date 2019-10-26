@@ -98,7 +98,7 @@ public class MaxSizeOfConcatStringsWithUniqueCharacters {
         String[] str3 = new String[]{"potato","kayak","banana","racecar"};
         System.out.println(concatStrings.maxSize(str3));//expected 0
         String[] str4 = new String[]{"eva","jwq","tyn","jan"};
-        System.out.println(concatStrings.maxSize(str4));//expected 90
+        System.out.println(concatStrings.maxSize(str4));//expected 9
     }
 
 }
