@@ -4,12 +4,12 @@ import java.util.*;
 class ThreeProductSuggestions {
     class TrieNode {
         Map<Character, TrieNode> children;
-        Map<String, Integer> sortedProducts;
+        List<String> products;
         boolean isWord;
 
         public TrieNode() {
             children = new HashMap<Character, TrieNode>();
-            sortedProducts = new HashMap<String, Integer>();
+            products = new ArrayList<>();
             isWord = false;
         }
     }
@@ -42,12 +42,12 @@ class ThreeProductSuggestions {
                 }
                 curr = next;
             }
-            PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>((a, b) ->  a.getKey().compareTo(b.getKey()));
-            pq.addAll(curr.sortedProducts.entrySet());
+            PriorityQueue<String> pq = new PriorityQueue<>((a, b) ->  a.compareTo(b));
+            pq.addAll(curr.products);
             int k = 3;
             List<String> res = new ArrayList<>();
             while (!pq.isEmpty() && k > 0) {
-                res.add((String) pq.poll().getKey());
+                res.add(pq.poll());
                 k--;
             }
             //System.out.println(Arrays.asList(res));
@@ -66,7 +66,7 @@ class ThreeProductSuggestions {
                 curr.children.put(c, next);
             }
             curr = next;
-            curr.sortedProducts.put(s, curr.sortedProducts.getOrDefault(s, 0) + count);
+            curr.products.add(s);
         }
         curr.isWord = true;
     }
