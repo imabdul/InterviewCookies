@@ -23,11 +23,9 @@ class ThreeProductSuggestions {
         prefix = "";
         List<List<String>> result = new ArrayList<>();
         for (int i = 0; i < numProducts; i++) {
-            add(repository.get(i), 1);
+            add(repository.get(i).toLowerCase());
         }
         int len = customerQuery.length();
-        //System.out.println(len);
-        int h=1;
         char[] charArr = customerQuery.toCharArray();
         prefix=prefix+charArr[0];
         for (int i = 1; i < len; i++) {
@@ -42,13 +40,14 @@ class ThreeProductSuggestions {
                 }
                 curr = next;
             }
-            PriorityQueue<String> pq = new PriorityQueue<>((a, b) ->  a.compareTo(b));
-            pq.addAll(curr.products);
-            int k = 3;
+            //PriorityQueue<String> pq = new PriorityQueue<>((a, b) ->  a.compareTo(b));
+            Collections.sort(curr.products);//curr.products;
+            int k = 0;
             List<String> res = new ArrayList<>();
-            while (!pq.isEmpty() && k > 0) {
-                res.add(pq.poll());
-                k--;
+            while (!curr.products.isEmpty() && k < curr.products.size() ) {
+                if(k==3)break;
+                res.add(curr.products.get(k));
+                k++;
             }
             //System.out.println(Arrays.asList(res));
             result.add(res);
@@ -57,7 +56,7 @@ class ThreeProductSuggestions {
         return result;
     }
 
-    public void add(String s, int count) {
+    public void add(String s) {
         TrieNode curr = root;
         for (char c : s.toCharArray()) {
             TrieNode next = curr.children.get(c);
@@ -75,10 +74,10 @@ class ThreeProductSuggestions {
         ThreeProductSuggestions tps = new ThreeProductSuggestions();
         int testNumProducts = 5;
         List<String> testRepository = new ArrayList<>();
-        testRepository.add("mouse");
+        testRepository.add("Mouse");
         testRepository.add("monitor");
         testRepository.add("mousepad");
-        testRepository.add("moneypot");
+        testRepository.add("moneyPot");
         testRepository.add("mobile");
         String testQuery = "mouse";
         List<List<String>> result= tps.threeProductSuggestions(testNumProducts,testRepository,testQuery);
