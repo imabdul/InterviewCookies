@@ -80,8 +80,8 @@ class ThreeProductSuggestions {
         testRepository.add("mousepad");
         testRepository.add("moneypot");
         testRepository.add("mobile");
-        String query = "mouse";
-        List<List<String>> result= tps.threeProductSuggestions(5,testRepository,query);
+        String testQuery = "mouse";
+        List<List<String>> result= tps.threeProductSuggestions(testNumProducts,testRepository,testQuery);
         for(List<String> l: result) {
             System.out.println(Arrays.asList(l));
         }
