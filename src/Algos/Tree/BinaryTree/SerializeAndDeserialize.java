@@ -13,8 +13,62 @@ import java.util.LinkedList;
 import java.io.*;
 
 public class SerializeAndDeserialize {
+    /**
+     * Iterative/BFS Approach
+     */
     // Encodes a tree to a single string.
+    String codec;
     public String serialize(TreeNode root) {
+        if(root==null) return null;
+        codec="";
+        Queue<TreeNode> q = new LinkedList<>();
+        codec+=String.valueOf(root.val) + " ";
+        q.add(root);
+
+        while(!q.isEmpty()){
+            TreeNode curr = q.poll();
+            if(curr.left != null ) {
+                q.add(curr.left);
+                codec += String.valueOf(curr.left.val) + " ";
+            }
+            if(curr.left == null ) codec+="N ";
+            if(curr.right != null ) {
+                q.add(curr.right);
+                codec += String.valueOf(curr.right.val) + " ";
+            }
+            if(curr.right == null ) codec+="N ";
+        }
+        return codec;
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+        if(data == null) return null;
+        String[] dataArr = data.split(" ");
+        Queue<TreeNode> q = new LinkedList<>();
+        TreeNode root = new TreeNode(Integer.valueOf(dataArr[0]));
+        q.add(root);
+        for(int i=1 ; i<dataArr.length ; i++){
+            TreeNode parent = q.poll();
+            if(!dataArr[i].equals("N")){
+                parent.left=new TreeNode(Integer.parseInt(dataArr[i]));
+                q.add(parent.left);
+            }
+            if(!dataArr[++i].equals("N")){
+                parent.right=new TreeNode(Integer.parseInt(dataArr[i]));
+                q.add(parent.right);
+            }
+        }
+
+        return root;
+
+    }
+
+    /**
+     * Recursive/DFS Approach
+     */
+
+    /*public String serialize(TreeNode root) {
         if (root==null) return "#,";
 
         String leftSerialize = serialize(root.left);
@@ -38,9 +92,11 @@ public class SerializeAndDeserialize {
         newNode.right = deSerializeHelper(nodesLeft);
 
         return newNode;
-    }
+    }*/
 
-    /////////////////////////////////////////////////////////
+    /**
+     * Driver Program
+     */
 
     public static TreeNode stringToTreeNode(String input) {
         input = input.trim();
