@@ -17,33 +17,33 @@ public class SerializeAndDeserialize {
      * Iterative/BFS Approach
      */
     // Encodes a tree to a single string.
-    String codec;
     public String serialize(TreeNode root) {
         if(root==null) return null;
-        codec="";
+        StringBuilder codec = new StringBuilder();
         Queue<TreeNode> q = new LinkedList<>();
-        codec+=String.valueOf(root.val) + " ";
+        codec.append(root.val + " ");
         q.add(root);
 
         while(!q.isEmpty()){
             TreeNode curr = q.poll();
             if(curr.left != null ) {
                 q.add(curr.left);
-                codec += String.valueOf(curr.left.val) + " ";
+                codec.append(curr.left.val + " ");
             }
-            if(curr.left == null ) codec+="N ";
+            if(curr.left == null ) codec.append("N ");
             if(curr.right != null ) {
                 q.add(curr.right);
-                codec += String.valueOf(curr.right.val) + " ";
+                codec.append(curr.right.val + " ");
             }
-            if(curr.right == null ) codec+="N ";
+            if(curr.right == null ) codec.append("N ");
         }
-        return codec;
+        //System.out.println(codec);
+        return codec.toString();
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if(data == null) return null;
+        if(data == null || data == "N" ) return null;
         String[] dataArr = data.split(" ");
         Queue<TreeNode> q = new LinkedList<>();
         TreeNode root = new TreeNode(Integer.valueOf(dataArr[0]));
@@ -59,9 +59,7 @@ public class SerializeAndDeserialize {
                 q.add(parent.right);
             }
         }
-
         return root;
-
     }
 
     /**
