@@ -140,6 +140,9 @@ public class SerializeAndDeserialize {
         return root;
     }
 
+    /**
+     * [1,2,3,null,null,4,5] input to the console to test
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
