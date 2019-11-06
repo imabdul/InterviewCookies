@@ -78,7 +78,7 @@ public class VerticalTreeNodes {
 
     public List<List<Integer>> verticalTraversal(TreeNode root){
         List<List<Integer>> result = new ArrayList<>();
-        HashMap<Integer,List<Pair>> map = new HashMap<>();
+        HashMap<Integer,List<Pair>> map = new HashMap<>(); //x -> list (some nodes might have same y in the list)
         Queue<Pair> q = new LinkedList<>();
         q.add(new Pair(root,0,0));
         int min=0, max=0;
@@ -100,7 +100,7 @@ public class VerticalTreeNodes {
                 @Override
                 public int compare(Pair o1, Pair o2) {
                     if(o1.y==o2.y)return o1.node.val-o2.node.val; //only compare nodes val when the height is same
-                    else return 0; // if height is different, no need
+                    else return 0; //otherwise don't change the order as BFS guarantees that top nodes are visited first
                 }
             });
 
