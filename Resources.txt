@@ -1,6 +1,8 @@
 Prep tips:
 https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f
 
+Amazon & Microsoft online questions to be reviewed - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
+
 
 Concepts covered:
 DFS
