@@ -51,6 +51,13 @@ public class AddTwoNumbers {
         ListNode L2 = new ListNode(5);
         L2.next=new ListNode(6);
         L2.next.next=new ListNode(4);
+        /**
+         * for instance:
+         * 243
+         * 564 +
+         * -----
+         * 708
+         */
 
 
         AddTwoNumbers atn = new AddTwoNumbers();

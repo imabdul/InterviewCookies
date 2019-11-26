@@ -51,6 +51,8 @@ package Algos.String;
 
 public class AtoI {
     public int myAtoi(String str) {
+        str.trim();
+
         int index=0, sign=1, length=str.length(), total=0;
         while(index < length && str.charAt(index)==' ')index++;
 

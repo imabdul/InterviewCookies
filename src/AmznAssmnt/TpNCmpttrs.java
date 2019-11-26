@@ -10,18 +10,18 @@ import java.util.*;
 class TpNCmpttrs
 {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
-    public ArrayList<String> topNCompetitors(int numCompetitors,
-                                             int topNCompetitors,
-                                             List<String> competitors,
-                                             int numReviews,
-                                             List<String> reviews)
+    public ArrayList<String> popularNFeatures(int numFeatures,
+                                              int topFeatures,
+                                              List<String> possibleFeatures,
+                                              int numFeatureRequests,
+                                              List<String> featureRequests)
     {
         // WRITE YOUR CODE HERE
         ArrayList<String> result = new ArrayList<>();
-        if(reviews.size()<1) return result;
+        if(featureRequests.size()<1) return result;
         HashMap<String, Integer> competitorsWithCount = new HashMap<>();
 
-        //System.out.println(numCompetitors);
+        //System.out.println(numFeatures);
         PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>(new Comparator<Map.Entry<String, Integer>>() {
             @Override
             public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
@@ -34,16 +34,16 @@ class TpNCmpttrs
             }
         });
 
-        for(String s: competitors) {
+        for(String s: possibleFeatures) {
             int reviewsCount = 0;
             int count = 1;
-            //while (count < numCompetitors) {
-            for(String rs: reviews){
+            //while (count < numFeatures) {
+            for(String rs: featureRequests){
                 if (rs.indexOf(s) >= 0) {
                     //System.out.println(s);
                     reviewsCount++;
                 }
-                if (count == numReviews) {
+                if (count == numFeatureRequests) {
                     //System.out.println(reviewsCount +" : " + s);
                     competitorsWithCount.put(s,reviewsCount);
                 }
@@ -58,7 +58,7 @@ class TpNCmpttrs
             //System.out.println(entry.getKey() +" : " + entry.getValue());
         }
 
-        if(topNCompetitors>numCompetitors){
+        if(topFeatures>numFeatures){
             while(pq.size()>0){
                 Map.Entry<String,Integer> entry = pq.poll();
                 if(entry.getValue()==0) break;
@@ -68,7 +68,7 @@ class TpNCmpttrs
             }
         }
         else{
-            while(limit!=topNCompetitors){
+            while(limit!=topFeatures){
                 limit++;
                 result.add(pq.poll().getKey());
             }
@@ -96,7 +96,7 @@ class TpNCmpttrs
         int numCompetitors1 = 3;
         int topNCompetitors1=2;
 
-        ArrayList<String> ls1 = tnc.topNCompetitors(numCompetitors1,topNCompetitors1,comp1,numReviews1,revs1);
+        ArrayList<String> ls1 = tnc.popularNFeatures(numCompetitors1,topNCompetitors1,comp1,numReviews1,revs1);
         System.out.println(Arrays.asList(ls1)); //expected [rock, spiderman]
 
         System.out.println("---------------------------");
@@ -116,7 +116,7 @@ class TpNCmpttrs
         int numCompetitors2 = 3;
         int topNCompetitors2 = 4;
 
-        ArrayList<String> ls2 = tnc.topNCompetitors(numCompetitors2,topNCompetitors2,comp2,numReviews2,revs2);
+        ArrayList<String> ls2 = tnc.popularNFeatures(numCompetitors2,topNCompetitors2,comp2,numReviews2,revs2);
         System.out.println(Arrays.asList(ls2)); //expected [maroon5, shawn, chainsmokers]
 
         System.out.println("---------------------------");
@@ -135,7 +135,7 @@ class TpNCmpttrs
         int numCompetitors3 = 3;
         int topNCompetitors3 = 3;
 
-        ArrayList<String> ls3 = tnc.topNCompetitors(numCompetitors3,topNCompetitors3,comp3,numReviews3,revs3);
+        ArrayList<String> ls3 = tnc.popularNFeatures(numCompetitors3,topNCompetitors3,comp3,numReviews3,revs3);
         System.out.println(Arrays.asList(ls3)); //expected [Curry, durrant, james]
 
     }
