@@ -11,7 +11,7 @@ public class TrappingRainWater {
         int leftMax = 0;
         int rightMax = 0;
 
-        while(left<=right){
+        while(left<right){
             leftMax = Math.max(height[left], leftMax);
             rightMax = Math.max(height[right], rightMax);
 
@@ -30,6 +30,5 @@ public class TrappingRainWater {
             int [] testArr = new int [] {0,1,0,2,1,0,1,3,2,1,2,1};
             TrappingRainWater trw = new TrappingRainWater();
             System.out.println(trw.trap(testArr)); // 6 is ans
-
     }
 }
