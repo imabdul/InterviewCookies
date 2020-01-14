@@ -1,4 +1,4 @@
-package Algos.Arrays;
+package CodilityMSFTAssmnt;
 
 /**
  * Created by Abdul Malik

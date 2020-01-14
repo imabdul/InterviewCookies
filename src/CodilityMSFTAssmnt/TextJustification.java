@@ -1,4 +1,4 @@
-package Algos.String;
+package CodilityMSFTAssmnt;
 
 
 import java.util.*;

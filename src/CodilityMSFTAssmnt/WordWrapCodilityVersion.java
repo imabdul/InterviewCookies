@@ -1,4 +1,4 @@
-package Algos.String;
+package CodilityMSFTAssmnt;
 
 /**
  * Created by Abdul Malik
