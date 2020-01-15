@@ -1,5 +1,12 @@
 package Algos.Arrays;
 
+
+/**
+ * LeetCode Hard problem -->> https://leetcode.com/problems/trapping-rain-water/
+ * Two Pointer Approach to solve this.
+ *
+ */
+
 public class TrappingRainWater {
     public int trap(int[] height) { // Two Pointer Solution
 
