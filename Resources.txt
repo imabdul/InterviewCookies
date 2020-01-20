@@ -1,7 +1,10 @@
 Prep tips:
 https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f
 
-Amazon & Microsoft online questions to be reviewed - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
+Amazon & Microsoft online questions to be reviewed -
+    - https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions - [Msft Codility]
+    - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions - [Amzn Online Assessment]
+    - https://leetcode.com/discuss/interview-question/481968/amazon-interview-problems-list-updated [Amzn in general only]
 
 
 Concepts covered:
@@ -24,4 +27,9 @@ Resources to prepare for DP:
     - https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
 
 Resources to prepare System Design:
+    - https://leetcode.com/discuss/interview-question/483813/how-would-you-design-yelp-facebook-check-in
     - https://leetcode.com/discuss/interview-question/341980/Amazon-or-System-Design-or-System-to-capture-unique-addresses-in-the-entire-world (System to capture unique addresses in the entire world | Amazon)
+
+Resources for Data Structures Implementation:
+    - https://github.com/YogenRaii/java-core/blob/master/src/main/java/com/eprogrammerz/examples/ds/custom/map/MyMap.java - HashMap implementation Java
+    - https://dzone.com/articles/custom-hashmap-implementation-in-java
