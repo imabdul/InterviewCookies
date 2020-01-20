@@ -33,3 +33,9 @@ Resources to prepare System Design:
 Resources for Data Structures Implementation:
     - https://github.com/YogenRaii/java-core/blob/master/src/main/java/com/eprogrammerz/examples/ds/custom/map/MyMap.java - HashMap implementation Java
     - https://dzone.com/articles/custom-hashmap-implementation-in-java
+
+Channels to prepare DS/Design concepts:
+    - https://www.youtube.com/channel/UCMNkvKnD3mo3Jj9eTwJllWw
+    - https://www.youtube.com/channel/UCmJz2DV1a3yfgrR7GqRtUUA (preferred)
+    - https://www.youtube.com/user/tusharroy2525
+    - https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/playlists

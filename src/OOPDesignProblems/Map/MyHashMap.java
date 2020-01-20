@@ -28,6 +28,11 @@ package OOPDesignProblems.Map;
  * All keys and values will be in the range of [0, 1000000].
  * The number of operations will be in the range of [1, 10000].
  * Please do not use the built-in HashMap library.
+ *
+ * One more better explanation :
+ *  - https://dzone.com/articles/custom-hashmap-implementation-in-java
+ *  - https://github.com/YogenRaii/java-core/blob/master/src/main/java/com/eprogrammerz/examples/ds/custom/map/MyMap.java
+ *
  */
 
 class MyHashMap {
