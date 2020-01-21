@@ -39,3 +39,10 @@ Channels to prepare DS/Design concepts:
     - https://www.youtube.com/channel/UCmJz2DV1a3yfgrR7GqRtUUA (preferred)
     - https://www.youtube.com/user/tusharroy2525
     - https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw/playlists
+
+
+Resources to read about concurrency/multithreading concepts:
+    - https://www.baeldung.com/java-mutex
+    - http://tutorials.jenkov.com/java-util-concurrent/executorservice.html
+    - https://www.geeksforgeeks.org/mutex-vs-semaphore/
+    - https://mkyong.com/java/java-thread-mutex-and-semaphore-example/

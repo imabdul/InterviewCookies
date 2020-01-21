@@ -73,9 +73,7 @@ class LogStorageSystem {
         ls.put(3,"2016:01:01:00:00:00");
         System.out.println(Arrays.asList(ls.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Year"))); //expected [3,2,1]
         System.out.println(Arrays.asList(ls.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Hour"))); //expected [2,1]
-
     }
-
 }
 
 /**
