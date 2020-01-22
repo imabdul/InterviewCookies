@@ -1,7 +1,7 @@
 package Algos.String;
 
 /**
- * https://leetcode.com/problems/reorder-log-files/
+ * https://leetcode.com/problems/reorder-data-in-log-files/
  *
  * You have an array of logs.  Each log is a space delimited string of words.
  *
