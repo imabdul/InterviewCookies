@@ -5,6 +5,7 @@ Amazon & Microsoft online questions to be reviewed -
     - https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions - [Msft Codility]
     - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions - [Amzn Online Assessment]
     - https://leetcode.com/discuss/interview-question/481968/amazon-interview-problems-list-updated [Amzn in general only]
+    - https://leetcode.com/discuss/interview-question/488887/amazon-final-interview-questions-sde1 [more Amzn interview questions]
 
 
 Concepts covered:
@@ -25,6 +26,7 @@ Resources to prepare for DP:
     - https://leetcode.com/discuss/general-discussion/475924/my-experience-and-notes-for-learning-dp
     - https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
     - https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+    - https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-questions-thread (compiled list of some commonly asked interview DP Questions)
 
 Resources to prepare System Design:
     - https://leetcode.com/discuss/interview-question/483813/how-would-you-design-yelp-facebook-check-in
@@ -46,3 +48,7 @@ Resources to read about concurrency/multithreading concepts:
     - http://tutorials.jenkov.com/java-util-concurrent/executorservice.html
     - https://www.geeksforgeeks.org/mutex-vs-semaphore/
     - https://mkyong.com/java/java-thread-mutex-and-semaphore-example/
+
+
+Ascii Table I refer:
+    - https://en.wikipedia.org/wiki/File:ASCII-Table.svg

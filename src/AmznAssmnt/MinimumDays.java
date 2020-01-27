@@ -10,55 +10,54 @@ package AmznAssmnt;
  * [0,1,0,0,1,0]
  * [0,0,1,1,1,1]]
  *
- *
  * Output --> 2
  */
 
 
 import java.util.*;
 
-public class MinHrs {
+public class MinimumDays {
     int[][] cache;
-    int minHours(int numRows, int numCols, List<List<Integer>> grid){
-        if(grid == null || grid.size() == 0) return 0;
+
+    int minimumDays(int rows, int columns, List<List<Integer>> grid) {
+        if (grid == null || grid.size() == 0) return 0;
         Queue<int[]> que = new LinkedList<>(); //queue will get coordinates of only 1's
-        int zeroCount=0;
-        for(int i=0; i<numRows; i++){
-            for(int j=0; j<numCols; j++){
-                if(grid.get(i).get(j)==1) {
+        int zeroCount = 0;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                if (grid.get(i).get(j) == 1) {
                     que.add(new int[]{i, j});
-                }
-                else{
+                } else {
                     zeroCount++;
                 }
             }
         }
 
         //if there's no zero at all int the grid return 0
-        if(zeroCount==0) return 0;
-        int count=0;
+        if (zeroCount == 0) return 0;
+        int count = 0;
 
         //four possible directions up, down, right, left
-        int[][]dirs = new int[][] {{-1,0},{1,0},{0,1},{0,-1}};
+        int[][] dirs = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 
         //start bfs
-        while(!que.isEmpty()){
+        while (!que.isEmpty()) {
             ++count;
-            int size=que.size();
-            for(int i=0; i<size; i++){
+            int size = que.size();
+            for (int i = 0; i < size; i++) {
                 int[] point = que.poll();
-                for(int[] dir: dirs){
-                    int x = point[0]+dir[0];
-                    int y = point[1]+dir[1];
+                for (int[] dir : dirs) {
+                    int x = point[0] + dir[0];
+                    int y = point[1] + dir[1];
                     //check if the x or y is out of bound
                     //or it's already 1
-                    if(x<0 || y<0 || x>=numRows || y>=numCols || grid.get(x).get(y)==1) continue;
+                    if (x < 0 || y < 0 || x >= rows || y >= columns || grid.get(x).get(y) == 1) continue;
 
                     //set the adjacent 4 sides 1
-                    grid.get(x).set(y,1);
+                    grid.get(x).set(y, 1);
 
                     //add next round of coordinates that turned into 1 recently to propogate 1s further
-                    que.add(new int[]{x,y});
+                    que.add(new int[]{x, y});
                     zeroCount--;
                 }
             }
@@ -69,20 +68,23 @@ public class MinHrs {
          * adding child nodes into the queue, and when you reach the last level where all the nodes are null(for instance) you are still doing depth++.
          * But essentially nulls are not required so you just do depth - 1 in the end and return. I hope you understood.
          */
-        return zeroCount==0 ? count-1 : -1;
+        return zeroCount == 0 ? count - 1 : -1;
     }
 
-    private int dfs(int i, int j, int numRows, int numCols, List<List<Integer>> grid){
-        if(i<0 || i>=numRows|| j<0 || j>=numCols || grid.get(i).get(j)==1) return 0;
-        if(cache[i][j]!=0)return cache[i][j];
+    /**
+     * Another solution with DFS Approach
+     */
+    private int dfs(int i, int j, int numRows, int numCols, List<List<Integer>> grid) {
+        if (i < 0 || i >= numRows || j < 0 || j >= numCols || grid.get(i).get(j) == 1) return 0;
+        if (cache[i][j] != 0) return cache[i][j];
         else {
-            int minHours=1;
-            minHours = Math.max(minHours, dfs(i + 1, j, numRows, numCols, grid));
-            minHours = Math.max(minHours, dfs(i - 1, j, numRows, numCols, grid));
-            minHours = Math.max(minHours, dfs(i, j + 1, numRows, numCols, grid));
-            minHours = Math.max(minHours, dfs(i, j - 1, numRows, numCols, grid));
-            cache[i][j]=minHours;
-            return minHours;
+            int minDays = 1;
+            minDays = Math.max(minDays, dfs(i + 1, j, numRows, numCols, grid));
+            minDays = Math.max(minDays, dfs(i - 1, j, numRows, numCols, grid));
+            minDays = Math.max(minDays, dfs(i, j + 1, numRows, numCols, grid));
+            minDays = Math.max(minDays, dfs(i, j - 1, numRows, numCols, grid));
+            cache[i][j] = minDays;
+            return minDays;
         }
     }
 
@@ -105,8 +107,8 @@ public class MinHrs {
         int numRows=3;
         int numCols=6;
 
-        MinHrs mH = new MinHrs();
-        System.out.println(mH.minHours(numRows,numCols,grid));
+        MinimumDays mD = new MinimumDays();
+        System.out.println(mD.minimumDays(numRows,numCols,grid));
 
     }
 }

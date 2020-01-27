@@ -87,7 +87,6 @@ class AutocompleteSystem {
         for(int i=0; i <sentences.length; i++){
             add(sentences[i],times[i]);
         }
-
     }
 
     private void add(String s, int count){
