@@ -48,6 +48,7 @@ Resources to read about concurrency/multithreading concepts:
     - http://tutorials.jenkov.com/java-util-concurrent/executorservice.html
     - https://www.geeksforgeeks.org/mutex-vs-semaphore/
     - https://mkyong.com/java/java-thread-mutex-and-semaphore-example/
+    - http://tutorials.jenkov.com/java-concurrency/blocking-queues.html
 
 
 Ascii Table I refer:
