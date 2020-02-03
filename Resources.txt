@@ -6,6 +6,7 @@ Amazon & Microsoft online questions to be reviewed -
     - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions - [Amzn Online Assessment]
     - https://leetcode.com/discuss/interview-question/481968/amazon-interview-problems-list-updated [Amzn in general only]
     - https://leetcode.com/discuss/interview-question/488887/amazon-final-interview-questions-sde1 [more Amzn interview questions]
+    - https://leetcode.com/discuss/interview-experience/495385/microsoft-azure-onsite-interview-experience (good read before MSFT onsite event)
 
 
 Concepts covered:
@@ -19,7 +20,6 @@ Recursion
 DP
 Greedy
 OOPs Design
-
 
 
 Resources to prepare for DP:
