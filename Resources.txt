@@ -5,6 +5,7 @@ Amazon & Microsoft online questions to be reviewed -
     - https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions - [Msft Codility]
     - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions - [Amzn Online Assessment]
     - https://leetcode.com/discuss/interview-question/481968/amazon-interview-problems-list-updated [Amzn in general only]
+    - https://www.youtube.com/playlist?list=PLLucmoeZjtMR990BPePcn5WgoCM_OX0YB [Amzn Leadership principles to be reviewed]
     - https://leetcode.com/discuss/interview-question/488887/amazon-final-interview-questions-sde1 [more Amzn interview questions]
     - https://leetcode.com/discuss/interview-experience/495385/microsoft-azure-onsite-interview-experience (good read before MSFT onsite event)
 
@@ -50,6 +51,9 @@ Resources to read about concurrency/multithreading concepts:
     - https://www.geeksforgeeks.org/mutex-vs-semaphore/
     - https://mkyong.com/java/java-thread-mutex-and-semaphore-example/
     - http://tutorials.jenkov.com/java-concurrency/blocking-queues.html
+
+Resources to read about networking concepts:
+    - https://hpbn.co/
 
 
 Ascii Table I refer:

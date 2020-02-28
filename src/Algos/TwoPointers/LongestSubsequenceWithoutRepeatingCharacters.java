@@ -1,4 +1,4 @@
-package Algos.String.TwoPointer;
+package Algos.TwoPointers;
 
 /**
  * Given a string, find the length of the longest substring without repeating characters.
@@ -21,7 +21,6 @@ package Algos.String.TwoPointer;
  * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  */
 
-import java.sql.SQLOutput;
 import java.util.*;
 public class LongestSubsequenceWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {

@@ -113,7 +113,6 @@ public class LRUCache {
 
     public void put(int key, int value){
 
-
         if(map.containsKey(key)){
             DNode node = map.get(key);
             node.value=value;
@@ -127,7 +126,6 @@ public class LRUCache {
 
             if(totalItemsInCache>capacity) removeLRUEntryFromStructure();
         }
-
 
     }
 

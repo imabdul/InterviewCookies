@@ -1,4 +1,4 @@
-package Algos.Arrays;
+package Algos.TwoPointers;
 
 
 /**

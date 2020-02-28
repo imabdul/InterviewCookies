@@ -12,26 +12,16 @@ public class WithoutThreeConsecutive {
     /**
      * Less lines of code but working solution
      */
-    public int solution(String s) {
-        char[] arr = s.toCharArray();
-
-        if(arr.length == 0)
-            return 0;
-
-        int result = 0, n = 1;
-        char curr = arr[0];
-
-        for(int i = 0; i < arr.length; i++) {
-            if(arr[i] == curr) {   // if consecutive character
-                n++;
-            } else {                // if character changes, increment number of swaps
-                result += n/3;
-                curr = arr[i];
-                n = 1;
+    public int solution(String S) {
+        int noOfSwaps = 0;
+        for (int i = 0 ; i < S.length(); i++) {
+            int len = 1;
+            for (; i+1<=S.length()-1 && S.charAt(i) == S.charAt(i + 1); i++) {
+                len++;
             }
+            noOfSwaps += len / 3;
         }
-        result += n/3;
-        return result;
+        return noOfSwaps;
     }
 
     /**

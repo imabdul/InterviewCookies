@@ -21,7 +21,6 @@ public class FibonacciNumber {
         return dp[n];
     }
 
-
     public static void main(String[] Args){
         FibonacciNumber f = new FibonacciNumber();
         System.out.println(f.fib(0));
@@ -33,7 +32,4 @@ public class FibonacciNumber {
         System.out.println(f.fib(6));
         System.out.println(f.fib(7));
     }
-
-
-
 }

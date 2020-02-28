@@ -91,8 +91,6 @@ class MyHashMap {
         }
         return prev;
     }
-
-
 }
 
 //Why LisNode?? Ans: to handle collision. It's quite common that 2 elements may get the same indexes. In that case, it will added to the liskedlist. While retrieval, you need to find your desired key at the index by traversing the linkedlist.

@@ -89,7 +89,5 @@ public class AtoI {
         System.out.println(ai.myAtoi(test4));
         String test5 = "-91283472332";
         System.out.println(ai.myAtoi(test5));
-
-
     }
 }

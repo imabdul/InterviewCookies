@@ -15,16 +15,29 @@ public class MaximumPossibleValueInserting5 {
     */
 
     public static int solution(int N) {
-        String n = "" + Math.abs(N);
-        int[] res = new int[n.length()];
-        for (int i = 0; i < n.length(); i++){
-            int aux = Integer.parseInt(n.substring(0, i) + 5 + n.substring(i, n.length()));
-            if (N < 0) res[i] = -aux;
-            else res[i] = aux;
-        }
-        int max = Integer.MIN_VALUE; // could also be -58001 since N doesn't go below -58000
-        for (int i = 0; i < res.length; i++) max = Math.max(max, res[i]);
-        return max;
+            // write your code here
+            StringBuilder s = new StringBuilder(String.valueOf(Math.abs(N)));
+            int flag;
+            if(N>=0) {
+                flag = 1;
+            }
+            else{
+                flag=-1;
+            }
+            int index = 0;
+            if (N >= 0) {
+                while (index <= s.length()-1 && (s.charAt(index) - '0') >= 5) {
+                    index++;
+                }
+                s.insert(index, 5);
+            } else {
+                while (index < s.length()-1 && (s.charAt(index) - '0') <= 5)
+                    index++;
+                s.insert(index, 5);
+            }
+            int res = Integer.parseInt(s.toString());
+            return res * flag;
+
     }
 
     public static void main(String[] args) {
