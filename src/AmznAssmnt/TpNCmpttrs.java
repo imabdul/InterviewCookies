@@ -6,76 +6,58 @@ package AmznAssmnt;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.*;
+import java.util.stream.Collectors.*;
 // CLASS BEGINS, THIS CLASS IS REQUIRED
 class TpNCmpttrs
 {
     // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
-    public ArrayList<String> popularNFeatures(int numFeatures,
-                                              int topFeatures,
-                                              List<String> possibleFeatures,
-                                              int numFeatureRequests,
-                                              List<String> featureRequests)
-    {
-        // WRITE YOUR CODE HERE
-        ArrayList<String> result = new ArrayList<>();
-        if(featureRequests.size()<1) return result;
-        HashMap<String, Integer> competitorsWithCount = new HashMap<>();
+    public ArrayList<String> topNCompetitors(int numCompetitors,
+                                             int topNCompetitors,
+                                             List<String> competitors,
+                                             int numReviews,
+                                             List<String> reviews) {
+        if (Objects.isNull(reviews) || reviews.isEmpty()
+                || Objects.isNull(competitors) || competitors.isEmpty()
+                || numReviews < 1 || numCompetitors < 1)
+            return new ArrayList<>();
 
-        //System.out.println(numFeatures);
-        PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>(new Comparator<Map.Entry<String, Integer>>() {
-            @Override
-            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                if(o1.getValue()!=o2.getValue()){
-                    return o2.getValue() - o1.getValue();
-                }
-                else{
-                    return o1.getKey().compareTo(o1.getKey());
+        ArrayList<String> topNCompetitorsList = new ArrayList<>(topNCompetitors);
+
+        Set<String> competitorsSet = new HashSet<>(competitors);
+        Map<String, Integer> topCompetitorsMap = new HashMap<>();
+
+        // clean the reviews first: lowercase, remove special characters and split by spaces.
+        reviews.forEach(review -> {
+            String[] reviewArray = review.toLowerCase().replaceAll("[^a-zA-Z0-9 ]", "").split(" ");
+            if (reviewArray.length > 0) {
+                Set<String> tempCompetitorSet = new HashSet<>();
+
+                for (String text : reviewArray) {
+                    if (competitorsSet.contains(text) && !tempCompetitorSet.contains(text)) {
+                        tempCompetitorSet.add(text);
+                        if (topCompetitorsMap.containsKey(text)) {
+                            topCompetitorsMap.put(text, topCompetitorsMap.get(text) + 1);
+                        } else {
+                            topCompetitorsMap.put(text, 1);
+                        }
+                    }
                 }
             }
         });
 
-        for(String s: possibleFeatures) {
-            int reviewsCount = 0;
-            int count = 1;
-            //while (count < numFeatures) {
-            for(String rs: featureRequests){
-                if (rs.indexOf(s) >= 0) {
-                    //System.out.println(s);
-                    reviewsCount++;
-                }
-                if (count == numFeatureRequests) {
-                    //System.out.println(reviewsCount +" : " + s);
-                    competitorsWithCount.put(s,reviewsCount);
-                }
-                count++;
-            }
+        List<Map.Entry<String, Integer>> list = new ArrayList<>(topCompetitorsMap.entrySet());
+        list.sort(new ValueThenKeyComparator<>());
+
+        for (int i = 0; i < list.size(); i++) {
+            if (topNCompetitorsList.size() < topNCompetitors)
+                topNCompetitorsList.add(list.get(i).getKey());
+            else
+                break;
         }
 
-
-        int limit=0;
-        for (Map.Entry<String,Integer> entry : competitorsWithCount.entrySet()){
-            pq.add(entry);
-            //System.out.println(entry.getKey() +" : " + entry.getValue());
-        }
-
-        if(topFeatures>numFeatures){
-            while(pq.size()>0){
-                Map.Entry<String,Integer> entry = pq.poll();
-                if(entry.getValue()==0) break;
-                String stage = entry.getKey();
-                result.add(stage);
-
-            }
-        }
-        else{
-            while(limit!=topFeatures){
-                limit++;
-                result.add(pq.poll().getKey());
-            }
-        }
-
-        return result;
+        return topNCompetitorsList;
     }
+
     // METHOD SIGNATURE ENDS
 
     public static void main(String[] args){
@@ -96,7 +78,7 @@ class TpNCmpttrs
         int numCompetitors1 = 3;
         int topNCompetitors1=2;
 
-        ArrayList<String> ls1 = tnc.popularNFeatures(numCompetitors1,topNCompetitors1,comp1,numReviews1,revs1);
+        ArrayList<String> ls1 = tnc.topNCompetitors(numCompetitors1,topNCompetitors1,comp1,numReviews1,revs1);
         System.out.println(Arrays.asList(ls1)); //expected [rock, spiderman]
 
         System.out.println("---------------------------");
@@ -116,7 +98,7 @@ class TpNCmpttrs
         int numCompetitors2 = 3;
         int topNCompetitors2 = 4;
 
-        ArrayList<String> ls2 = tnc.popularNFeatures(numCompetitors2,topNCompetitors2,comp2,numReviews2,revs2);
+        ArrayList<String> ls2 = tnc.topNCompetitors(numCompetitors2,topNCompetitors2,comp2,numReviews2,revs2);
         System.out.println(Arrays.asList(ls2)); //expected [maroon5, shawn, chainsmokers]
 
         System.out.println("---------------------------");
@@ -135,8 +117,22 @@ class TpNCmpttrs
         int numCompetitors3 = 3;
         int topNCompetitors3 = 3;
 
-        ArrayList<String> ls3 = tnc.popularNFeatures(numCompetitors3,topNCompetitors3,comp3,numReviews3,revs3);
+        ArrayList<String> ls3 = tnc.topNCompetitors(numCompetitors3,topNCompetitors3,comp3,numReviews3,revs3);
         System.out.println(Arrays.asList(ls3)); //expected [Curry, durrant, james]
 
+    }
+}
+
+class ValueThenKeyComparator<K extends Comparable<? super K>,
+        V extends Comparable<? super V>>
+        implements Comparator<Map.Entry<K, V>> {
+
+    public int compare(Map.Entry<K, V> a, Map.Entry<K, V> b) {
+        int cmp1 = b.getValue().compareTo(a.getValue());
+        if (cmp1 != 0) {
+            return cmp1;
+        } else {
+            return a.getKey().compareTo(b.getKey());
+        }
     }
 }
