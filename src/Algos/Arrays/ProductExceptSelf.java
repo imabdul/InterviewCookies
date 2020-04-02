@@ -52,7 +52,7 @@ public class ProductExceptSelf {
         for(int i=len-1; i>=0; i--){
             if(i<len-1) right*=nums[i+1];
             result[i]*=right;
-        }git
+        }
         return result;
     }
 

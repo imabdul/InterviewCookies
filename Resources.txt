@@ -9,18 +9,27 @@ Amazon & Microsoft online questions to be reviewed -
     - https://leetcode.com/discuss/interview-question/488887/amazon-final-interview-questions-sde1 [more Amzn interview questions]
     - https://leetcode.com/discuss/interview-experience/495385/microsoft-azure-onsite-interview-experience (good read before MSFT onsite event)
 
+Problems to go over before any FAANG & M onsite:
+    - https://leetcode.com/discuss/career/449135/How-to-effectively-use-LeetCode-to-prepare-for-interviews
+
 
 Concepts covered:
-DFS
-BFS
-Arrays
-String
-Trees
-2D Arrays
-Recursion
-DP
-Greedy
-OOPs Design
+    - DFS
+    - BFS
+    - Arrays
+    - String
+    - Trees
+    - 2D Arrays
+    - Recursion
+    - DP
+    - Greedy
+    - OOPs Design
+
+Theoretical Topics to covers:
+    - Good link to go through before interview: https://github.com/anshuj11/interviewPrep/wiki/Triplebyte-Mock-Interview---9-7
+    - Good read about Bloom filters
+    - Mutex, Deadlock, Semaphores, etc with their implementations. Key differences between Mutex vs Semaphores.
+
 
 
 Resources to prepare for DP:
