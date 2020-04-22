@@ -59,7 +59,7 @@ public class ProductExceptSelf {
     public static void main(String[] Args ){
         ProductExceptSelf pes= new ProductExceptSelf();
         int[] test1 = new int[] {1,2,3,4}; //[24,12,8,6]
-        System.out.println(Arrays.toString(pes.productExceptSelf(test1)));
+        System.out.println(Arrays.toString(pes.productExceptSelf(test1))); //output must be [24, 12, 8, 6]
 
     }
 }

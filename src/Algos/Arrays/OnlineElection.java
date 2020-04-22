@@ -3,8 +3,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.List;
-//Common interview Question Apple
-//https://leetcode.com/problems/online-election/discuss/173387/Java-two-methods-with-comment-using-TreeMap-and-binary-search-respectively
+/**
+ * Common interview Question Apple
+ * https://leetcode.com/problems/online-election/discuss/173387/Java-two-methods-with-comment-using-TreeMap-and-binary-search-respectively
+ */
+
 public class OnlineElection {
     private HashMap<Integer, Integer> map = new HashMap<>(); //to store time and leading candidate;
     private int[] times;
