@@ -1,3 +1,6 @@
+package Algos.String;
+import java.util.*;
+
 class PerformStringShifts {
     public String stringShift(String s, int[][] shift) {
         char[] cArray = s.toCharArray();
@@ -60,7 +63,8 @@ class PerformStringShifts {
         System.out.println(pss.stringShift(s1,shift1 ));
         String s2 = "abcdefg";
         int[][] shift2 = {{1,1},{1,1},{0,2},{1,3}};
-        System.out.println(pss.stringShift(s1,shift2));
+        System.out.println(pss.stringShift(s2,shift2));
+
 
     }
 }
