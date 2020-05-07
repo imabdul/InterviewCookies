@@ -1,6 +1,10 @@
 Prep tips:
 https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f
 
+Big O Cheat sheet:
+https://www.bigocheatsheet.com/
+https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation
+
 Amazon & Microsoft online questions to be reviewed -
     - https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions - [Msft Codility]
     - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions - [Amzn Online Assessment]
