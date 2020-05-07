@@ -27,8 +27,13 @@ Concepts covered:
 
 Theoretical Topics to covers:
     - Good link to go through before interview: https://github.com/anshuj11/interviewPrep/wiki/Triplebyte-Mock-Interview---9-7
-    - Good read about Bloom filters
+    - Good read about Bloom filters :-
+        *https://medium.com/datadriveninvestor/bloom-filter-a-simple-but-interesting-data-structure-37fd53b11606
+        *https://brilliant.org/wiki/bloom-filter/
     - Mutex, Deadlock, Semaphores, etc with their implementations. Key differences between Mutex vs Semaphores.
+    - Good read about Infrastructure as code. IAC techs (my personal interest Terraform (Orchestrator) | Ansible (Configuration Management)
+        *https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c
+    - java vs Scala
 
 
 
