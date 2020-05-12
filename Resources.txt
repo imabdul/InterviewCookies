@@ -48,6 +48,8 @@ Resources to prepare for DP:
     - https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-questions-thread (compiled list of some commonly asked interview DP Questions)
 
 Resources to prepare System Design:
+    - https://twitter.com/HenryR/status/1094033131399565313 (Twitter thread on System Design - Worth read)
+    - https://landing.google.com/sre/workbook/chapters/non-abstract-design/ (Good Read - Design of Adwords)
     - https://leetcode.com/discuss/interview-question/483813/how-would-you-design-yelp-facebook-check-in
     - https://leetcode.com/discuss/interview-question/341980/Amazon-or-System-Design-or-System-to-capture-unique-addresses-in-the-entire-world (System to capture unique addresses in the entire world | Amazon)
     - https://leetcode.com/discuss/interview-question/system-design/496042/design-video-sharing-platform-like-youtube (Discussion on Video Sharing platform, design discussion)
