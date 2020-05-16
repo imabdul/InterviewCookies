@@ -2,7 +2,7 @@ package Algos.Arrays;
 
 /**
  * Created by abdul on 4/7/20.
- * BytDanc Phone Screen
+ * BytDance Phone Screen
  */
 
 import java.io.*;

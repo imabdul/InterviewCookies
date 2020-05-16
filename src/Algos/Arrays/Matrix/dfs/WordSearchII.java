@@ -73,7 +73,7 @@ public class WordSearchII {
         if(i<board.length-1) dfsMatchWords(board, i+1, j, p, ans);
         if(j<board[0].length-1) dfsMatchWords(board, i, j+1, p, ans);
 
-        board[i][j] =c;
+        board[i][j]=c;
 
     }
 

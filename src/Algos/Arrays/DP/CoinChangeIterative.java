@@ -22,6 +22,7 @@ You may assume that you have an infinite number of each kind of coin.
 
 
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class CoinChangeIterative {
@@ -35,6 +36,7 @@ public class CoinChangeIterative {
                     dp[i]=Math.min(dp[i],1+dp[i-coins[j]]);
                 }
             }
+            System.out.println(dp[i]);
         }
         return dp[amount]>amount ? -1 : dp[amount];
     }

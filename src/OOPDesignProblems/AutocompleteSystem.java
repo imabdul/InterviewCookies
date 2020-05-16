@@ -98,7 +98,7 @@ class AutocompleteSystem {
                 curr.children.put(c,next);
             }
             curr=next;
-            curr.counts.put(s,curr.counts.getOrDefault(s,0)+count);
+            curr.counts.put(s,curr.counts.getOrDefault(s,0)+count);  //+count is for increment for future searches;
         }
         curr.isWord = true;
     }
