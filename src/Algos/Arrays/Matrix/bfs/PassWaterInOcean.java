@@ -1,5 +1,6 @@
 package Algos.Arrays.Matrix.bfs;
 /**
+ * FAQ : AMZN ONST
  *
  * Start point given : Start --> {0,3}
  * Matrix given-->
@@ -15,7 +16,6 @@ package Algos.Arrays.Matrix.bfs;
  *      since 4 is minimum, return 4
  *
  *  contraint: water can only flow through either smaller or equal value adjacent to the current cell(up, down, right, left).
- *
  */
 
 
