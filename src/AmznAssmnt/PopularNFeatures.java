@@ -1,82 +1,111 @@
-/*package AmznAssmnt;
+package AmznAssmnt;
+
+/**
+ * complexity --> O(N^2)
+ *
+ *
+ * Approach:
+ * wrote custom class Feature with featureName and frequency attributes
+ * built a map to store feature and custom Feature object
+ * Used max heap to sort the features based on it's frequency
+ * prepared and returned the result list with required topFeatures
+ *
+ */
+
 import java.util.*;
 
 // "static void main" must be defined in a public class.
 public class PopularNFeatures {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String[] featureRequests = new String[] {"storage, bc", "storage! af", "board asdf", "board qwerty qwerty"};
+        String[] possibleFeatures = new String[] {"storage", "board", "qwerty", "asdfa"};
+        PopularNFeatures pNF = new PopularNFeatures();
+        System.out.println(pNF.popularNFeatures(
+                6,5,
+                Arrays.asList(possibleFeatures),
+                3,
+                Arrays.asList(featureRequests)
+        ));
+    }
 
-        int numCompetitors = 6;
-        int topNCompetitors = 2;
-        String[] competitors = {"newshop", "shopnow", "afshion", "fashionbeats", "mymarket", "tcellular"};
-        int numReviews = 6;
-        String[] reviews = {"newshop is afshion providing good services in the city; everyone should use newshop", "best services by newshop", "fashionbeats has great services in the city", "i am proud to have fashionbeats", "mymarket has awesome services", "Thanks Newshop for the quick delivery afshion"};
-*/
-        /*
-        intuition: Top N frequently used words
-        - store the competitors into map, along with their frequent count
-        - loop through reviews
-            - convert the review to lowercase, and split by space
-            - if a word is not a competitor then avoid
-            - if a word is being used already for a review then avoid
-            - else increase the count of the competitor
-        - Create a PriorityQueue to find the N top elements, and provided logic to sort
-        - Create an array, and fill up with the N top elements
-        */
+    //method to handle case sensitivity
+    public static String getCleansedString(String str) {
+        return str.replaceAll("[^a-zA-Z]", "").toLowerCase();
+    }
 
- /*       List<String> result = getTopCompetitors(numCompetitors, topNCompetitors, competitors, numReviews, reviews);
+    //method to handle null or empty spaces
+    public static boolean isEmpty(String s) {
+        return s == null || s.trim().isEmpty();
+    }
 
-        System.out.println(result);
+    //custom class to maintain feature and it's frequency
+    public static class Feature implements Comparable<Feature> {
+        public String name;
+        public int frequency;
+
+        public Feature () {
+        }
+        public Feature (String name, int frequency) {
+            this.name = name;
+            this.frequency = frequency;
+        }
+
+        @Override
+        public int compareTo(Feature b) {
+            if(this.frequency == b.frequency) {
+                return this.name.compareTo(b.name);
+            }
+            return Integer.compare(b.frequency, this.frequency);
+        }
     }
 
 
-    public static List<String> getTopCompetitors(int numFeatures, int topFeatures
-            , List<String> possibleFeatures, int numFeatureRequests, List<String> featureRequests) {
-        HashMap<String, Integer> map = new HashMap<>();
-        // add all competitors into HashMap
-        for(int i=0; i<numFeatures; i++) {
-            map.put(possibleFeatures.get(i).toLowerCase(), 0);
+    public ArrayList<String> popularNFeatures(int numFeatures,
+                                              int topFeatures,
+                                              List<String> possibleFeatures,
+                                              int numFeatureRequests,
+                                              List<String> featureRequests)
+    {
+
+        // WRITE YOUR CODE HERE
+        ArrayList<String> result = new ArrayList<>();
+
+        if(numFeatures <= 0 || topFeatures <= 0 || numFeatureRequests <= 0) return result;
+
+        //case handling, converting sting into lower case
+        for(int i = 0; i < possibleFeatures.size(); ++i) {
+            possibleFeatures.set(i, getCleansedString(possibleFeatures.get(i)));
         }
 
-        // O(N)
-        // loop through all reveiws
-        for(String review: featureRequests) {
-            String[] words = review.toLowerCase().split(" ");
+        //using featureRequests & possibleFeatures: building a map of Feature and it's frequency
+        Map<String,Feature> featureMap = new HashMap<>();
 
-            Set<String> used = new HashSet<>();
-            // loop through all words in a review
-            for(String word: words) {
-                if(map.containsKey(word)
-                        && used.add(word)) {
-                    map.put(word, map.get(word) + 1);
+        for(String i : featureRequests) {
+            String[] words = i.split(" ");
+            Set<String> wordSet = new HashSet<>();
+            for(String iWord : words) {
+                wordSet.add(getCleansedString(iWord));
+            }
+            for(String iFeature : possibleFeatures) {
+                if(wordSet.contains(iFeature)) {
+                    featureMap.computeIfAbsent(iFeature, k -> new Feature(iFeature, 0)).frequency++;
+                    wordSet.remove(iFeature); // Since it has to be considered only once.
                 }
             }
         }
 
-        // O(log N)
-        PriorityQueue<Map.Entry<String, Integer>> queue = new PriorityQueue<>((a, b) -> ( a.getValue() == b.getValue()
-                ? b.getKey().compareTo(a.getKey())
-                : a.getValue() - b.getValue() ));
+        if(featureMap.isEmpty()) return result;
 
-        // O(N)
-        for(Map.Entry entry: map.entrySet()) {
-            queue.offer(entry);
-            if(queue.size() > topFeatures) {
-                queue.poll();
-            }
-        }
+        //sorting features based on their frequency
+        PriorityQueue<Feature> featureMaxHeap = new PriorityQueue<>(featureMap.size());
+        featureMaxHeap.addAll(featureMap.values());
 
-        // O(N)
-        String[] result = new String[topFeatures];
-        for(int i=topFeatures-1; i>=0 && !queue.isEmpty(); i--) {
-            Map.Entry<String, Integer> entry = queue.poll();
-            result[i] = entry.getKey();
+        // preparing result list
+        for(int i = 0; i < topFeatures && !featureMaxHeap.isEmpty(); ++i) {
+            result.add(featureMaxHeap.poll().name);
         }
-
-        ArrayList<String> r = new ArrayList<>();
-        for(String d: result) {
-            r.add(d);
-        }
-        return r;
+        return result;
     }
-}*/
+}
+
+

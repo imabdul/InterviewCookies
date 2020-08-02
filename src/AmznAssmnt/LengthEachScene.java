@@ -1,7 +1,13 @@
 package AmznAssmnt;
 
 /**
- * Created by tkmab9v on 4/14/20.
+ * Created by abdul
+ * Complexity --> O(N)
+ *
+ *
+ * Approach:
+ * Used contant size(26) of Array and 2 pointers approach to solve this problem.
+ *
  */
 import java.util.*;
 import static java.util.Arrays.asList;

@@ -1,3 +1,7 @@
+Certification to do:
+https://www.coursera.org/learn/site-reliability-engineering-slos
+
+
 Prep tips:
 https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f
 
@@ -5,13 +9,22 @@ Big O Cheat sheet:
 https://www.bigocheatsheet.com/
 https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation
 
+14 Algo Patterns - Very good read:
+    - https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
+
+
 Amazon & Microsoft online questions to be reviewed -
     - https://leetcode.com/discuss/interview-question/398023/Microsoft-Online-Assessment-Questions - [Msft Codility]
     - https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions - [Amzn Online Assessment]
     - https://leetcode.com/discuss/interview-question/481968/amazon-interview-problems-list-updated [Amzn in general only]
     - https://www.youtube.com/playlist?list=PLLucmoeZjtMR990BPePcn5WgoCM_OX0YB [Amzn Leadership principles to be reviewed]
+    - https://leetcode.com/discuss/interview-question/437082/Amazon-Behavioral-questions-or-Leadership-Principles-or-LP [Amzn Leadership principles to be reviewed]
     - https://leetcode.com/discuss/interview-question/488887/amazon-final-interview-questions-sde1 [more Amzn interview questions]
     - https://leetcode.com/discuss/interview-experience/495385/microsoft-azure-onsite-interview-experience (good read before MSFT onsite event)
+
+LeetCode Discussion related to OOD problems, quite useful for interviews:
+    - https://leetcode.com/discuss/interview-question/object-oriented-design/?currentPage=1&orderBy=hot&query=
+    - https://leetcode.com/discuss/interview-question/system-design?currentPage=1&orderBy=hot&query=
 
 Problems to go over before any FAANG & M onsite:
     - https://leetcode.com/discuss/career/449135/How-to-effectively-use-LeetCode-to-prepare-for-interviews
@@ -50,6 +63,8 @@ Resources to prepare for DP:
 Resources to prepare System Design:
     - https://twitter.com/HenryR/status/1094033131399565313 (Twitter thread on System Design - Worth read)
     - https://landing.google.com/sre/workbook/chapters/non-abstract-design/ (Good Read - Design of Adwords)
+    - https://xpertsession.com/blog/what-you-need-to-know-about-the-system-design-interview/
+    - https://github.com/resumejob/system-design-algorithms
     - https://leetcode.com/discuss/interview-question/483813/how-would-you-design-yelp-facebook-check-in
     - https://leetcode.com/discuss/interview-question/341980/Amazon-or-System-Design-or-System-to-capture-unique-addresses-in-the-entire-world (System to capture unique addresses in the entire world | Amazon)
     - https://leetcode.com/discuss/interview-question/system-design/496042/design-video-sharing-platform-like-youtube (Discussion on Video Sharing platform, design discussion)
@@ -66,6 +81,7 @@ Channels to prepare DS/Design concepts:
 
 
 Resources to read about concurrency/multithreading concepts:
+    - https://www.vogella.com/tutorials/JavaConcurrency/article.html#concurrency
     - https://www.baeldung.com/java-mutex
     - http://tutorials.jenkov.com/java-util-concurrent/executorservice.html
     - https://www.geeksforgeeks.org/mutex-vs-semaphore/
