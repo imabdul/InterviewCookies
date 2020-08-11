@@ -2,7 +2,8 @@
 Data Structures &amp; Algorithms
 
 
-Frequently asked DS/Algo problems.
-Solutions are optimized.
+This repository consists of frequently asked DS/Algo problems.
 
-For reources to prepare for Coding interview, please refer to resources.txt.
+All solutions are optimized.
+
+Resources.txt has all the resources listed that required to prepare for Software Engineering interview.
