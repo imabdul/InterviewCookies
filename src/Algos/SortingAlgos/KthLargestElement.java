@@ -65,7 +65,7 @@ public class KthLargestElement {
     public static void main(String[] args){
         int[] arr = new int [] {3,7,8,2,1};
         KthLargestElement kth = new KthLargestElement();
-        System.out.println(kth.findKthLargest(arr,2));
+        System.out.println(kth.findKthLargest(arr,7));
         /*System.out.println(kth.findKthLargest(arr, 2));
         Random rand = new Random(0);
         System.out.println(rand.nextInt());

@@ -34,7 +34,7 @@ public class GenerateParentheses {
     public static void main(String[] args){
         GenerateParentheses gp = new GenerateParentheses();
         List<String> out = gp.generateParentheses(3);
-        System.out.println(Arrays.asList(out)); //[((())), (()()), (())(), ()(()), ()()()]
+        System.out.println(out); //[((())), (()()), (())(), ()(()), ()()()]
     }
 
 }

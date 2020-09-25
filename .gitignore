@@ -1,4 +1,5 @@
-# IntelliJ
+# Ignore out files
 out/
 
+# ignore idea files
 .idea/
